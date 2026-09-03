@@ -79,10 +79,10 @@
     .row.justify-content-center.mb-4
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3
-          h5.text-bold.mb-0 Figura 8.
+          h5.text-bold.mb-0 Figura 9.
           span Sistema
-        img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema5/img09.png", alt="Diagrama del sistema de control del tanque que muestra la secuencia: Nivel del tanque, Sensor, Acondicionador de señal, Procesamiento electrónico, Circuito de control y Bomba/válvula.", data-aos="zoom-in").mx-auto
-        img.d-block.d-lg-none.mb-3(src="@/assets/curso/tema5/img10.png", alt="Diagrama del sistema de control del tanque que muestra la secuencia: Nivel del tanque, Sensor, Acondicionador de señal, Procesamiento electrónico, Circuito de control y Bomba/válvula.", data-aos="zoom-in").mx-auto
+        img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema5/img09.png", alt="Diagrama de flujo vertical que representa un sistema de medición y control del nivel de un tanque. El proceso inicia con Nivel del tanque, que pasa a un Sensor. Luego, la señal continúa hacia un Acondicionador de señal, seguido de Procesamiento electrónico y Circuito de control. Finalmente, el circuito activa una Bomba / válvula. Las etapas están representadas en recuadros y conectadas mediante flechas descendentes.", data-aos="zoom-in").mx-auto
+        img.d-block.d-lg-none.mb-3(src="@/assets/curso/tema5/img10.png", alt="Diagrama de flujo vertical que representa un sistema de medición y control del nivel de un tanque. El proceso inicia con Nivel del tanque, que pasa a un Sensor. Luego, la señal continúa hacia un Acondicionador de señal, seguido de Procesamiento electrónico y Circuito de control. Finalmente, el circuito activa una Bomba / válvula. Las etapas están representadas en recuadros y conectadas mediante flechas descendentes.", data-aos="zoom-in").mx-auto
         figcaption.mb-0 Nota. SENA, (2026).
 
     p.mb-2 En este ejemplo, el sensor proporciona información sobre el nivel. La señal puede requerir acondicionamiento y posteriormente ser procesada para determinar si el sistema debe activar o desactivar un elemento de actuación.
@@ -175,10 +175,10 @@
 
       .col-lg-6.mb-0.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
-          h5.text-bold.mb-0 Figura 9.
+          h5.text-bold.mb-0 Figura 10.
           span Salida de circuito
-        img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema5/img12.png", alt="Diagrama de salida de circuito donde Sensor A y Sensor B ingresan a la compuerta AND, la cual activa el relé y este a la máquina.", data-aos="zoom-in").mx-auto
-        img.d-block.d-lg-none.mb-3(src="@/assets/curso/tema5/img13.png", alt="Diagrama de salida de circuito donde Sensor A y Sensor B ingresan a la compuerta AND, la cual activa el relé y este a la máquina.", data-aos="zoom-in").mx-auto
+        img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema5/img12.png", alt="Diagrama de un sistema de control lógico. Sensor A y Sensor B proporcionan señales de entrada a un bloque lógico AND. La salida del bloque AND se dirige mediante una flecha hacia un Relé, que a su vez envía la señal hacia una Máquina. El diagrama representa una condición en la que las señales de ambos sensores deben estar activas para accionar la máquina.", data-aos="zoom-in").mx-auto
+        img.d-block.d-lg-none.mb-3(src="@/assets/curso/tema5/img13.png", alt="Diagrama de un sistema de control lógico. Sensor A y Sensor B proporcionan señales de entrada a un bloque lógico AND. La salida del bloque AND se dirige mediante una flecha hacia un Relé, que a su vez envía la señal hacia una Máquina. El diagrama representa una condición en la que las señales de ambos sensores deben estar activas para accionar la máquina.", data-aos="zoom-in").mx-auto
         figcaption.mb-3 Nota. SENA, (2026).
 
         p.mb-0 Este tipo de aplicación permite observar cómo las señales obtenidas mediante sensores pueden utilizarse para establecer condiciones de control.

@@ -298,10 +298,10 @@
 
       .col-lg-5.mb-4.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-2
-          h5.text-bold.mb-0 Figura 7.
+          h5.text-bold.mb-0 Figura 8.
           span Circuitos combinados
         figure
-          img(src="@/assets/curso/tema4/img12.png", data-aos="zoom-in").mx-auto
+          img(src="@/assets/curso/tema4/img12.png", alt="Diagrama de un sistema de control. Sensor A y Sensor B aparecen a la izquierda y sus señales convergen hacia un punto común. Desde allí, una flecha conduce a Lógica de control, que a su vez dirige una flecha hacia Salida.", data-aos="zoom-in").mx-auto
           figcaption Nota. SENA, (2026).
 
     p.mb-5 Si los sensores representan condiciones diferentes de un proceso, la lógica puede determinar cuándo debe activarse la salida.

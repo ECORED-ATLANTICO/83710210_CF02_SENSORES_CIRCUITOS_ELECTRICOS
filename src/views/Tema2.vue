@@ -331,8 +331,8 @@
 
         .col-lg-7.mb-0.mb-lg-0
           .titulo-sexto.color-acento-contenido.mb-3
-            h5.text-bold.mb-0 Figura 2.
-            span Representación simplificada
+            h5.text-bold.mb-0 Figura 4.
+            span Intervalo
           img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema2/img20.png", alt="Diagrama que representa el proceso de conversión de una señal analógica a digital. En la parte superior aparece “medida análoga”, seguida del valor “2,35 v”. una flecha apunta hacia un bloque denominado “adc”. debajo, otra flecha conduce a “código digital”, representado por la secuencia binaria “00101101”. finalmente, una flecha apunta hacia “procesamiento”.", data-aos="zoom-in").mx-auto
           img.d-block.d-lg-none.mb-3(src="@/assets/curso/tema2/img21.png", alt="Diagrama que representa el proceso de conversión de una señal analógica a digital. En la parte superior aparece “medida análoga”, seguida del valor “2,35 v”. una flecha apunta hacia un bloque denominado “adc”. debajo, otra flecha conduce a “código digital”, representado por la secuencia binaria “00101101”. finalmente, una flecha apunta hacia “procesamiento”.", data-aos="zoom-in").mx-auto
           figcaption.mb-0 Nota. SENA, (2026).

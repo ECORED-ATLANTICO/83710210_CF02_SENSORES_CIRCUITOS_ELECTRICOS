@@ -33,7 +33,7 @@
           .crd_hover_txt(data-aos="flip-left").tarjeta
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/tema3/img02.png", alt="La corriente eléctrica")
+                img(src="@/assets/curso/tema3/img02.png", alt="")
             .crd_hover_txt--body
               h4.mb-3.text-center La corriente eléctrica
               p.mb-0 Corresponde al movimiento ordenado de cargas eléctricas a través de un material conductor. Para que exista corriente debe establecerse una condición que permita el desplazamiento de las cargas dentro del circuito.
@@ -42,7 +42,7 @@
           .crd_hover_txt(data-aos="flip-left").tarjeta
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/tema3/img03.png", alt="La tensión eléctrica")
+                img(src="@/assets/curso/tema3/img03.png", alt="")
             .crd_hover_txt--body
               h4.mb-3.text-center La tensión eléctrica
               p.mb-0 Es la diferencia de potencial eléctrico entre dos puntos. Permite impulsar el movimiento de las cargas a través de un conductor.
@@ -51,7 +51,7 @@
           .crd_hover_txt(data-aos="flip-left").tarjeta
             .crd_hover_txt--img
               figure
-                img(src="@/assets/curso/tema3/img04.png", alt="La resistencia eléctrica")
+                img(src="@/assets/curso/tema3/img04.png", alt="")
             .crd_hover_txt--body
               h4.mb-3.text-center La resistencia eléctrica
               p.mb-0 Es la oposición que presenta un material al paso de la corriente eléctrica.
@@ -158,9 +158,9 @@
 
         .col-lg-4.col-md-12.mb-4.mb-lg-0
           .titulo-sexto.color-acento-contenido.mb-3
-            h5.text-bold.mb-0 Figura 4.
+            h5.text-bold.mb-0 Figura 5.
             span División de tensión
-          img(src="@/assets/curso/tema3/img08.png", alt="Diagrama de un divisor de tensión formado por dos resistencias R1 y R2 conectadas en serie entre Vin y GND, con Vout tomado entre ellas.", data-aos="zoom-in").mx-auto
+          img(src="@/assets/curso/tema3/img08.png", alt="Diagrama de un divisor de voltaje compuesto por dos resistencias. La entrada Vin se conecta a la resistencia R1, ubicada en serie, y posteriormente al punto de salida Vout. Desde el punto de conexión entre R1 y Vout se deriva una conexión hacia la resistencia R2, que está conectada a GND o tierra.", data-aos="zoom-in").mx-auto
           figcaption.mb-0 Nota. SENA, (2026).
 
         .col-lg-6.col-md-12.mb-0.mb-lg-0
@@ -210,10 +210,10 @@
 
       .col-lg-7.mb-0.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
-          h5.text-bold.mb-0 Figura 4.
+          h5.text-bold.mb-0 Figura 6.
           span Puente de <em>Wheatstone</em>
-        img.d-none.d-lg-block(src="@/assets/curso/tema3/img10.png", alt="Esquema del puente de Wheatstone con resistencias R1, R2, R3 y R2 conectadas entre Vin y los nodos A y B.", data-aos="zoom-in").mx-auto
-        img.d-block.d-lg-none(src="@/assets/curso/tema3/img11.png", alt="Esquema del puente de Wheatstone con resistencias R1, R2, R3 y R2 conectadas entre Vin y los nodos A y B.", data-aos="zoom-in").mx-auto
+        img.d-none.d-lg-block(src="@/assets/curso/tema3/img10.png", alt="Diagrama de un circuito con dos divisores de voltaje conectados entre sí mediante los puntos A y B. El primer divisor tiene una entrada Vin, dos resistencias R1 y R2, y una conexión de salida en el punto A. El segundo divisor tiene una entrada Vin, dos resistencias R3 y R4, y una conexión en el punto B. Los puntos A y B están unidos por una línea horizontal.", data-aos="zoom-in").mx-auto
+        img.d-block.d-lg-none(src="@/assets/curso/tema3/img11.png", alt="Diagrama de un circuito con dos divisores de voltaje conectados entre sí mediante los puntos A y B. El primer divisor tiene una entrada Vin, dos resistencias R1 y R2, y una conexión de salida en el punto A. El segundo divisor tiene una entrada Vin, dos resistencias R3 y R4, y una conexión en el punto B. Los puntos A y B están unidos por una línea horizontal.", data-aos="zoom-in").mx-auto
         figcaption.mb-0 Nota. SENA, (2026).
 
     .row.mb-5.justify-content-center.align-items-center
@@ -244,33 +244,7 @@
       separador
 
       #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 3.4 Relación entre el circuito y la señal obtenida
-
-      .row.mb-4.justify-content-center.align-items-stretch
-        .col-lg-6.mb-4.mb-lg-0
-          p.mb-3 La configuración del circuito determina las características de la señal disponible en su salida. Por esta razón, el diseño de un circuito de acondicionamiento debe considerar la relación entre la señal de entrada, los componentes utilizados y la señal que se requiere obtener.
-          p.mb-3 La secuencia puede representarse de la siguiente manera:
-          ul.lista-ul--color.mb-0
-            li.d-flex.mb-1
-              i.fas.fa-arrow-right.me-2(style="color: #0F8268;")
-              span.fw-bold Circuito de acondicionamiento
-            li.d-flex.mb-1
-              i.fas.fa-arrow-right.me-2(style="color: #0F8268;")
-              span.fw-bold Señal adaptada
-            li.d-flex.mb-0
-              i.fas.fa-arrow-right.me-2(style="color: #0F8268;")
-              span.fw-bold Conversión o procesamiento
-
-        .col-lg-6.mb-0.mb-lg-0
-          .bg-color-08.p-4.br-15.h-100
-            p.mb-2 La señal adaptada debe conservar la información necesaria sobre la variable que se está midiendo.
-            p.mb-0 Por ejemplo, si un sensor modifica su resistencia cuando cambia una variable física, el circuito de acondicionamiento puede convertir esta variación en una modificación de tensión que pueda ser posteriormente procesada.
-            p.mb-0 Esta relación permite comprender por qué los componentes eléctricos no se seleccionan únicamente por su disponibilidad, sino de acuerdo con la función que deben cumplir dentro del sistema.
-
-      separador
-
-      #t_3_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 3.5 Del acondicionamiento al sistema electrónico
+        h2 3.4 Del acondicionamiento al sistema electrónico
 
     .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-5.mb-5
       .bloque-texto-g__img(
@@ -284,10 +258,10 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3
-          h5.text-bold.mb-0 Figura 6.
+          h5.text-bold.mb-0 Figura 7.
           span Secuencia general
-        img.d-none.d-lg-block(src="@/assets/curso/tema3/img14.png", alt="Diagrama de secuencia general: Variable física → Sensor → Acondicionador → Procesamiento → Acción de control", data-aos="zoom-in").mx-auto
-        img.d-block.d-lg-none(src="@/assets/curso/tema3/img15.png", alt="Diagrama de secuencia general: Variable física → Sensor → Acondicionador → Procesamiento → Acción de control", data-aos="zoom-in").mx-auto
+        img.d-none.d-lg-block(src="@/assets/curso/tema3/img14.png", alt="Diagrama de flujo vertical que representa una cadena de medición y control. El proceso inicia con una variable física, que pasa mediante una flecha a un sensor. Luego, la señal pasa a un acondicionador, continúa hacia procesamiento y finalmente llega a una acción de control. Cada etapa está representada dentro de un recuadro y conectada con flechas descendentes.", data-aos="zoom-in").mx-auto
+        img.d-block.d-lg-none(src="@/assets/curso/tema3/img15.png", alt="Diagrama de flujo vertical que representa una cadena de medición y control. El proceso inicia con una variable física, que pasa mediante una flecha a un sensor. Luego, la señal pasa a un acondicionador, continúa hacia procesamiento y finalmente llega a una acción de control. Cada etapa está representada dentro de un recuadro y conectada con flechas descendentes.", data-aos="zoom-in").mx-auto
         figcaption.mb-0 Nota. SENA, (2026).
 
     .row.mb-5.justify-content-center.align-items-center
