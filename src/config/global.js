@@ -34,30 +34,190 @@ export default {
         numero: '1',
         titulo: 'Acondicionamiento de señales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: 'Sensor, transductor y acondicionador de señal',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Necesidad del acondicionamiento',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Acondicionamiento mediante circuitos eléctricos',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Divisor de voltaje',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Puente de Wheatstone',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Relación entre acondicionamiento y procesamiento',
+            hash: 't_1_6',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         numero: '2',
         titulo: 'Conversión y representación de señales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Señales análogas y digitales',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Señal binaria y nivel lógico',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Sistema decimal y sistema binario',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Conversor análogo-digital',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Representación de medidas análogas en códigos binarios',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Relación entre conversión y sistemas de control',
+            hash: 't_2_6',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Circuitos básicos para el acondicionamiento',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Principios eléctricos aplicados al acondicionamiento',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Configuración de circuitos',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Aplicación del puente de Wheatstone',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Relación entre el circuito y la señal obtenida',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Del acondicionamiento al sistema electrónico',
+            hash: 't_3_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
         titulo: 'Principios básicos de sistemas automáticos de control',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Elementos de un sistema de control',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Señales de entrada y salida',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Niveles lógicos',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Compuertas lógicas',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Circuitos combinatorios',
+            hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo: 'Relé como elemento de control',
+            hash: 't_4_6',
+          },
+          {
+            numero: '4.7',
+            titulo: 'Diagrama eléctrico de un sistema de control',
+            hash: 't_4_7',
+          },
+          {
+            numero: '4.8',
+            titulo: 'Automatización industrial',
+            hash: 't_4_8',
+          },
+        ],
       },
       {
         nombreRuta: 'tema5',
         numero: '5',
         titulo: 'Integración de sensores y sistemas electrónicos de control',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '5.1',
+            titulo: 'De la captación a la acción de control',
+            hash: 't_5_1',
+          },
+          {
+            numero: '5.2',
+            titulo: 'Aplicación en procesos industriales',
+            hash: 't_5_2',
+          },
+          {
+            numero: '5.3',
+            titulo: 'Relación entre electrónica, sensores y automatización',
+            hash: 't_5_3',
+          },
+          {
+            numero: '5.4',
+            titulo: 'Análisis de una solución básica de control',
+            hash: 't_5_4',
+          },
+          {
+            numero: '5.5',
+            titulo: 'Integración del proceso',
+            hash: 't_5_5',
+          },
+        ],
       },
     ],
     subMenu: [

@@ -290,23 +290,23 @@ figcaption
   background-size: cover
 
 .bg-fondo-01
-  background-image: url("../assets/curso/tema1/img07.png") !important
+  background-image: url("../assets/curso/tema1/img17.png") !important
   background-position: center
   background-size: cover
   border-radius: 15px
 
 .bg-fondo-02
   position: relative
-  background-image: url("../assets/curso/tema1/img10.png") !important
+  background-image: url("../assets/curso/tema2/img12.png") !important
   background-position: center
   background-size: 100% 100%
   border-radius: 15px
-  width: 92%
+  // width: 92%
   @media screen and (max-width: $bp-max-md)
     width: 100%
 
 .bg-fondo-03
-  background-image: url("../assets/curso/tema1/img31.png") !important
+  background-image: url("../assets/curso/tema2/img03.png") !important
   background-position: center
   background-size: cover
   border-radius: 15px
@@ -324,13 +324,13 @@ figcaption
   border-radius: 15px
 
 .bg-fondo-07
-  background-image: url("../assets/curso/tema2/bg03.png") !important
+  background-image: url("../assets/curso/tema2/img13.png") !important
   background-position: center
   background-size: cover
   border-radius: 15px
 
 .bg-fondo-08
-  background-image: url("../assets/curso/tema2/bg04.png") !important
+  background-image: url("../assets/curso/tema1/bg04.png") !important
   background-position: center
   background-size: cover
   border-radius: 15px
@@ -814,6 +814,9 @@ a, button, div
 
 .bg-color-12
   background-color: #FAFAFA
+
+.br-color-05
+  border: 2px solid #5071A8 !important
 
 // Background colors utilities (Keep used ones)
 .bg-color-1
@@ -1422,12 +1425,12 @@ a, button, div
 .bg-fondo-02:before
   content: ""
   position: absolute
-  right: -5rem
+  left: -5rem
   top: 50%
   transform: translateY(-50%)
   width: 25%
   aspect-ratio: 749 / 528
-  background-image: url("../assets/curso/tema1/img11.png")
+  background-image: url("../assets/curso/tema2/img11.png")
   background-size: contain
   background-repeat: no-repeat
   background-position: right center
@@ -1435,3 +1438,10 @@ a, button, div
 
   @media screen and (max-width: $bp-max-md)
     display: none
+
+.ml-11
+  margin-left: 11rem
+  @media screen and (max-width: $bp-max-lg)
+    margin-left: 6rem
+  @media screen and (max-width: $bp-max-md)
+    margin-left: 0
