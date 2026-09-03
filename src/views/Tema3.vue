@@ -54,7 +54,7 @@
                 img(src="@/assets/curso/tema3/img04.png", alt="")
             .crd_hover_txt--body
               h4.mb-3.text-center La resistencia eléctrica
-              p.mb-0 Es la oposición que presenta un material al paso de la corriente eléctrica.
+              p.mb-0.ft-1 Representa la oposición que presenta un material o componente al paso de la corriente.
 
     .row.mb-4.justify-content-center.align-items-center
       .col-lg-8.col-md-12.mb-4.mb-lg-0
@@ -244,7 +244,33 @@
       separador
 
       #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 3.4 Del acondicionamiento al sistema electrónico
+        h2 3.4 Relación entre el circuito y la señal obtenida
+
+      .row.mb-4.justify-content-center.align-items-center
+        .col-lg-6.mb-4.mb-lg-0
+          p.mb-3 La configuración del circuito determina las características de la señal disponible en su salida. Por esta razón, el diseño de un circuito de acondicionamiento debe considerar la relación entre la señal de entrada, los componentes utilizados y la señal que se requiere obtener.
+          p.mb-3 La secuencia puede representarse de la siguiente manera:
+          ul.lista-ul.mb-0
+            li.d-flex.mb-2
+              span.fw-bold.me-2 →
+              span.fw-bold Circuito de acondicionamiento
+            li.d-flex.mb-2
+              span.fw-bold.me-2 →
+              span.fw-bold Señal adaptada
+            li.d-flex.mb-0
+              span.fw-bold.me-2 →
+              span.fw-bold Conversión o procesamiento
+
+        .col-lg-6.mb-0.mb-lg-0
+          .bg-color-08.p-4.br-15
+            p.mb-3 La señal adaptada debe conservar la información necesaria sobre la variable que se está midiendo.
+            p.mb-3 Por ejemplo, si un sensor modifica su resistencia cuando cambia una variable física, el circuito de acondicionamiento puede convertir esta variación en una modificación de tensión que pueda ser posteriormente procesada.
+            p.mb-0 Esta relación permite comprender por qué los componentes eléctricos no se seleccionan únicamente por su disponibilidad, sino de acuerdo con la función que deben cumplir dentro del sistema.
+
+    separador
+
+    #t_3_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.5 Del acondicionamiento al sistema electrónico
 
     .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-5.mb-5
       .bloque-texto-g__img(

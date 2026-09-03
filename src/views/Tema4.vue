@@ -77,8 +77,11 @@
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-0.mb-lg-0.order-2.order-lg-1
+        
         .bg-color-02.p-4.br-15.mb-3
           .row.align-items-center
+            .col-lg-6.mb-2.mb-lg-0
+              span La relación básica puede expresarse como:
             .col-lg-auto.d-none.d-lg-block
               img(src="@/assets/curso/tema1/img06.svg", style="max-width: 90px").mx-auto
             .col-lg

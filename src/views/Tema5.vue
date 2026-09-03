@@ -220,7 +220,7 @@
                     i.fas.fa-square.me-2(style="color: #74A2F2;")
                     span Los elementos de actuación ejecutan las acciones sobre el proceso.
 
-            .col-lg-4.align-self-center
+            .col-lg-4.align-self-end
               p.mb-0 Esta relación puede sintetizarse de la siguiente manera:
 
           .bg-color-02.p-4.br-15.mb-0.max-cont-md
@@ -244,7 +244,7 @@
           .row.align-items-center.justify-content-center(data-aos="fade-right")
             .col-lg-auto.col-xl-auto.d-none.d-lg-flex.order-lg-2
               img(src="@/assets/curso/tema2/img14.png").mx-auto
-            .col-lg-9.col-xl-9.order-1.order-lg-1.p-5.p-lg-4
+            .col-lg-8.col-xl-9.order-1.order-lg-1.p-5.p-lg-4
               .row.align-items-center
                 .col-lg-6.mb-3.mb-lg-0
                   p.mb-1.fw-bold ¿Qué variable debe ser controlada?
