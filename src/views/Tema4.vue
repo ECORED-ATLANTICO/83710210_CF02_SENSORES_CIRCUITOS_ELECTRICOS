@@ -198,11 +198,11 @@
           img(src="@/assets/curso/tema4/img11.png", data-aos="zoom-in")
       .col-lg-10.order-2.order-lg-1
         TabsA.color-acento-botones
-          .tarjeta.color-acento-botones--borde.p-4(titulo="El sensor")
-            p.mb-0 La salida de una compuerta AND se activa cuando todas las entradas se encuentran activas.
-            p.mb-3 Para dos entradas:
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Compuerta AND")
+            p.mb-1 La salida de una compuerta AND se activa cuando todas las entradas se encuentran activas.
+            p.mb-2 Para dos entradas:
             
-            .px-3.py-2.br-15.border.border-2.br-15.br-color-05.col-6.mb-2
+            .px-3.py-2.br-15.border.border-2.br-color-05.col-lg-6.col-md-8.mb-3
               .row.fw-bold.mb-2.pb-1
                 .col-3 A
                 .col-3.text-center B
@@ -224,14 +224,57 @@
                 .col-3.text-center 1
                 .col-6.text-center 1
 
-            p.mb-2 Su comportamiento puede expresarse como:
+            p.mb-1.fw-bold Su comportamiento puede expresarse como:
             p.mb-0 A AND B = 1 únicamente cuando A = 1 y B = 1.
 
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Compuerta OR")
+            p.mb-2 La salida de una compuerta OR se activa cuando al menos una de las entradas se encuentra activa.
+            p.mb-3 Para dos entradas:
+            
+            .px-3.py-2.br-15.border.border-2.br-color-05.col-lg-6.col-md-8.mb-3
+              .row.fw-bold.mb-2.pb-1
+                .col-3 A
+                .col-3.text-center B
+                .col-6.text-center Salida
+              .row.mb-0
+                .col-3 0
+                .col-3.text-center 0
+                .col-6.text-center 0
+              .row.mb-0
+                .col-3 0
+                .col-3.text-center 1
+                .col-6.text-center 1
+              .row.mb-0
+                .col-3 1
+                .col-3.text-center 0
+                .col-6.text-center 1
+              .row.mb-0
+                .col-3 1
+                .col-3.text-center 1
+                .col-6.text-center 1
 
-          .tarjeta.color-acento-botones--borde.p-4(titulo="El transductor")
-            p.mb-0 Recibe una señal de entrada relacionada con una o más cantidades físicas y la convierte en una señal de salida, modificada o no. Dentro de los ejemplos mencionados en el material de formación se encuentran el relé, el elemento primario, el transmisor y diferentes convertidores.
-          .tarjeta.color-acento-botones--borde.p-4(titulo="El acondicionador")
-            p.mb-0 De señal 
+            p.mb-2.fw-bold Su comportamiento puede expresarse como:
+            p.mb-0 A OR B = 1 cuando A o B, o ambas, presentan el estado 1.
+
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Compuerta NOT")
+            p.mb-2 La compuerta NOT trabaja con una entrada y genera la condición lógica contraria. Por esta razón, también se conoce como inversor.
+            
+            .px-3.py-2.br-15.border.border-2.br-color-05.col-lg-5.col-md-7.mb-0
+              .row.fw-bold.mb-2.pb-1
+                .col-6 Entrada
+                .col-6.text-center Salida
+              .row.mb-0
+                .col-6 0
+                .col-6.text-center 1
+              .row.mb-0
+                .col-6 1
+                .col-6.text-center 0
+
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Aplicación en control")
+            p.mb-3 Las compuertas lógicas permiten establecer condiciones para activar o desactivar una salida.
+            p.mb-2 Por ejemplo, puede establecerse que una máquina únicamente pueda iniciar cuando:
+            p.mb-0.fw-bold Sensor A = 1 AND Sensor B = 1
+            p.mb-0 En este caso, los dos sensores deben encontrarse activos para generar la condición de salida.
 
     separador
 

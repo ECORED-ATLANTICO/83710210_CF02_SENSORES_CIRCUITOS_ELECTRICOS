@@ -46,7 +46,7 @@
             h4.mb-3.text-center La tensión eléctrica
             p.mb-0 Es la diferencia de potencial eléctrico entre dos puntos. Permite impulsar el movimiento de las cargas a través de un conductor.
 
-      .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
+      .col-xl-4.col-lg-6.col-md-12.col-12.mb-0.mb-xl-0
         .crd_hover_txt(data-aos="flip-left").tarjeta
           .crd_hover_txt--img
             figure
@@ -59,19 +59,19 @@
       .col-lg-8.col-md-12.mb-4.mb-lg-0
         .bg-color-12.p-4.br-15.mb-0.h-100
           .row
-            .col-6
+            .col-lg-6.col-md-12.mb-3.mb-lg-0
               .row.align-items-center
-                .col-lg-7
+                .col-lg-7.mb-2.mb-lg-0
                   p.mb-0 Estos tres conceptos se encuentran relacionados mediante la Ley de Ohm
                 .col-lg-5.text-center
                   .px-2.py-1.br-10.d-inline-block.border.border-2.border-success
                     p.mb-0.fw-bold.fs-5 Ley de Ohm
 
-            .col-6
+            .col-lg-6.col-md-12
               .row.align-items-center
-                .col-lg-7
+                .col-lg-7.mb-2.mb-lg-0
                   p.mb-0 La Ley de Ohm establece la relación entre tensión, corriente y resistencia:
-                .col-lg-5.text-center.mt-3.mt-lg-0
+                .col-lg-5.text-center
                   .px-3.py-2.br-10.d-inline-block.border.border-2.border-success
                     p.mb-0.fw-bold.fs-5 V = I × R
 
