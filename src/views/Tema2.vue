@@ -7,48 +7,50 @@
         span 2
       h1 Conversión y representación de señales
     
-    .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-4.mb-5
+    .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require_src('@/assets/curso/tema2/img01.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Las señales permiten representar mediante información eléctrica el comportamiento de una variable física. En un sistema de instrumentación, la señal obtenida por un sensor puede presentar diferentes características dependiendo del principio de funcionamiento del dispositivo y de la variable que se desea captar.
 
-    p.mb-3 En términos generales, las señales pueden clasificarse como análogas o digitales. Esta diferenciación es fundamental para comprender la forma en que la información puede ser procesada por los sistemas electrónicos.
+    .bg-full-width.bg-fondo-1
 
-    p.mb-4 Una señal análoga puede variar de manera continua dentro de un intervalo, mientras que una señal digital utiliza valores discretos para representar información. En los sistemas electrónicos digitales adquieren especial importancia los estados binarios, representados generalmente mediante los valores 0 y 1.
+      p.mb-3 En términos generales, las señales pueden clasificarse como análogas o digitales. Esta diferenciación es fundamental para comprender la forma en que la información puede ser procesada por los sistemas electrónicos.
 
-    .row.align-items-center.mb-3
-      .col-lg-auto.d-none.d-lg-block
-        img(src="@/assets/curso/tema2/img02.svg", style="max-width: 90px").mx-auto
-      .col-lg
-        p.mb-0 Se incorpora dentro de los conocimientos asociados al componente conceptos como señal análoga, señal binaria, nivel lógico, sistema decimal, conversor análogo-digital y representación de medidas análogas en códigos binarios.
+      p.mb-4 Una señal análoga puede variar de manera continua dentro de un intervalo, mientras que una señal digital utiliza valores discretos para representar información. En los sistemas electrónicos digitales adquieren especial importancia los estados binarios, representados generalmente mediante los valores 0 y 1.
 
-    separador
+      .row.align-items-center.mb-3
+        .col-lg-auto.d-none.d-lg-block
+          img(src="@/assets/curso/tema2/img02.svg", style="max-width: 90px").mx-auto
+        .col-lg
+          p.mb-0 Se incorpora dentro de los conocimientos asociados al componente conceptos como señal análoga, señal binaria, nivel lógico, sistema decimal, conversor análogo-digital y representación de medidas análogas en códigos binarios.
 
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.1 Señales análogas y digitales
+      separador
 
-    .row.mb-4.justify-content-center.align-items-center
-      .col-lg-5.mb-4.mb-lg-0
-        p.mb-3 Una señal análoga presenta variaciones continuas. Esto significa que puede asumir diferentes valores dentro de un determinado intervalo.
+      #t_2_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.1 Señales análogas y digitales
 
-        .bg-fondo-03.p-4.br-15.mb-3
-          .row.align-items-center
-            .col-lg-7.mb-3.mb-lg-0
-              p.mb-0 Por ejemplo, cuando un sensor mide una variable cuya magnitud cambia progresivamente, la señal generada puede representar esas variaciones mediante cambios en tensión, corriente u otra magnitud eléctrica.
-            .col-lg-5.d-none.d-lg-block
-              img(src="@/assets/curso/tema2/img04.png", data-aos="zoom-in").mx-auto.w-md-50
-        
-        p.mb-0 Una representación conceptual puede observarse así:
+      .row.mb-4.justify-content-center.align-items-center
+        .col-lg-5.mb-4.mb-lg-0
+          p.mb-3 Una señal análoga presenta variaciones continuas. Esto significa que puede asumir diferentes valores dentro de un determinado intervalo.
 
-      .col-lg-7.mb-4.mb-lg-0
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5.text-bold.mb-0 Figura 1.
-          span Señal generada
-        img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema2/img05.png", alt="Gráfica de línea escalonada que representa una relación entre valor y tiempo. El eje vertical está etiquetado como “Valor” y el eje horizontal como “Tiempo”. La línea inicia cerca de cero, aumenta progresivamente mediante varios escalones hasta alcanzar un nivel máximo, se mantiene constante durante un breve periodo y luego desciende gradualmente hasta aproximarse nuevamente al nivel inicial.", data-aos="zoom-in").mx-auto
-        img.d-block.d-lg-none(src="@/assets/curso/tema2/img06.png", alt="Gráfica de línea escalonada que representa una relación entre valor y tiempo. El eje vertical está etiquetado como “Valor” y el eje horizontal como “Tiempo”. La línea inicia cerca de cero, aumenta progresivamente mediante varios escalones hasta alcanzar un nivel máximo, se mantiene constante durante un breve periodo y luego desciende gradualmente hasta aproximarse nuevamente al nivel inicial.", data-aos="zoom-in").mx-auto
-        figcaption.mb-0 Nota. SENA, (2026).
+          .bg-fondo-03.p-4.br-15.mb-3
+            .row.align-items-center
+              .col-lg-7.mb-3.mb-lg-0
+                p.mb-0 Por ejemplo, cuando un sensor mide una variable cuya magnitud cambia progresivamente, la señal generada puede representar esas variaciones mediante cambios en tensión, corriente u otra magnitud eléctrica.
+              .col-lg-5.d-none.d-lg-block
+                img(src="@/assets/curso/tema2/img04.png", data-aos="zoom-in").mx-auto.w-md-50
+          
+          p.mb-0 Una representación conceptual puede observarse así:
+
+        .col-lg-7.mb-4.mb-lg-0
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5.text-bold.mb-0 Figura 1.
+            span Señal generada
+          img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema2/img05.png", alt="Gráfica de línea escalonada que representa una relación entre valor y tiempo. El eje vertical está etiquetado como “Valor” y el eje horizontal como “Tiempo”. La línea inicia cerca de cero, aumenta progresivamente mediante varios escalones hasta alcanzar un nivel máximo, se mantiene constante durante un breve periodo y luego desciende gradualmente hasta aproximarse nuevamente al nivel inicial.", data-aos="zoom-in").mx-auto
+          img.d-block.d-lg-none(src="@/assets/curso/tema2/img06.png", alt="Gráfica de línea escalonada que representa una relación entre valor y tiempo. El eje vertical está etiquetado como “Valor” y el eje horizontal como “Tiempo”. La línea inicia cerca de cero, aumenta progresivamente mediante varios escalones hasta alcanzar un nivel máximo, se mantiene constante durante un breve periodo y luego desciende gradualmente hasta aproximarse nuevamente al nivel inicial.", data-aos="zoom-in").mx-auto
+          figcaption.mb-0 Nota. SENA, (2026).
 
     p.mb-4 La curva representa una señal cuyo valor cambia progresivamente con el tiempo.<br>En una señal digital, la información se representa mediante valores discretos. En el caso de una señal binaria, se utilizan dos estados:
 
@@ -150,42 +152,43 @@
         p.mb-0 Por ejemplo, un sensor puede detectar la presencia de un objeto y generar una señal que el sistema interpreta como un estado lógico. A partir de esta información, un circuito puede determinar si debe producir o no una respuesta.
 
     
-    .row.align-items-center.justify-content-center.mb-4(data-aos="fade-right")
-      .col-lg-10.mx-auto
-        .bg-fondo-02.br-15.mb-0.p-4.justify-content-center
-          .col-lg-9.ml-11
-            p.mb-1.fw-bold Ejemplo aplicado:
-            p.mb-0 Supóngase un sistema encargado de detectar la presencia de una pieza en una banda transportadora.
-            p.mb-0 Cuando la pieza no está presente: <b>Sensor = 0</b>
-            p.mb-0 Cuando la pieza está presente: <b>Sensor = 1</b>
-            p.mb-0 La señal puede utilizarse posteriormente para activar una determinada acción del sistema.
-            p.mb-0.text-bold La señal binaria permite representar condiciones del proceso mediante estados que pueden ser interpretados por los circuitos electrónicos.
+    .bg-full-width.bg-fondo-2
+      .row.align-items-center.justify-content-center.mb-4(data-aos="fade-right")
+        .col-lg-10.mx-auto
+          .bg-fondo-02.br-15.mb-0.p-4.justify-content-center
+            .col-lg-9.ml-11
+              p.mb-1.fw-bold Ejemplo aplicado:
+              p.mb-0 Supóngase un sistema encargado de detectar la presencia de una pieza en una banda transportadora.
+              p.mb-0 Cuando la pieza no está presente: <b>Sensor = 0</b>
+              p.mb-0 Cuando la pieza está presente: <b>Sensor = 1</b>
+              p.mb-0 La señal puede utilizarse posteriormente para activar una determinada acción del sistema.
+              p.mb-0.text-bold La señal binaria permite representar condiciones del proceso mediante estados que pueden ser interpretados por los circuitos electrónicos.
 
-    separador
+      separador
 
-    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.3 Sistema decimal y sistema binario
+      #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.3 Sistema decimal y sistema binario
 
 
-    .row.mb-4.justify-content-center.align-items-center
-      .col-lg-6.mb-4.mb-lg-0
-        p.mb-2 Para comprender la representación digital de las medidas es necesario reconocer la diferencia entre el sistema decimal y el sistema binario.
-        .bg-color-05-degrade.p-4.br-15.mb-0.h-100
-          p.mb-1 El sistema decimal utiliza diez símbolos:
-          p.mb-0.fw-bold 0, 1, 2, 3, 4, 5, 6, 7, 8 y 9.
+      .row.mb-4.justify-content-center.align-items-center
+        .col-lg-6.mb-4.mb-lg-0
+          p.mb-2 Para comprender la representación digital de las medidas es necesario reconocer la diferencia entre el sistema decimal y el sistema binario.
+          .bg-color-05-degrade.p-4.br-15.mb-0.h-100
+            p.mb-1 El sistema decimal utiliza diez símbolos:
+            p.mb-0.fw-bold 0, 1, 2, 3, 4, 5, 6, 7, 8 y 9.
 
-      .col-lg-6.mb-0.mb-lg-0
-        .bg-color-08.p-4.br-15.mb-0.h-100
-          .row.align-items-center
-            .col-lg-9
-              p.mb-2 Es el sistema utilizado habitualmente para expresar valores de medición.
-              p.mb-0 El sistema binario, en cambio, utiliza únicamente dos símbolos:
-            .col-lg-3.text-center.mt-3.mt-lg-0
-              .px-3.py-2.br-10.d-inline-block.border.border-2.border-success
-                p.mb-0.fw-bold.fs-5 0 y 1.
+        .col-lg-6.mb-0.mb-lg-0
+          .bg-color-08.p-4.br-15.mb-0.h-100
+            .row.align-items-center
+              .col-lg-9
+                p.mb-2 Es el sistema utilizado habitualmente para expresar valores de medición.
+                p.mb-0 El sistema binario, en cambio, utiliza únicamente dos símbolos:
+              .col-lg-3.text-center.mt-3.mt-lg-0
+                .px-3.py-2.br-10.d-inline-block.border.border-2.border-success
+                  p.mb-0.fw-bold.fs-5 0 y 1.
 
-    p.mb-1 Los sistemas electrónicos digitales utilizan esta representación porque sus circuitos pueden trabajar con dos estados lógicos.
-    p.mb-4 Por ejemplo:
+      p.mb-1 Los sistemas electrónicos digitales utilizan esta representación porque sus circuitos pueden trabajar con dos estados lógicos.
+      p.mb-4 Por ejemplo:
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-12.col-xl-8
@@ -311,37 +314,38 @@
 
     separador
 
-    #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.5 Representación de medidas análogas en códigos binarios
+    .bg-full-width.bg-fondo-1
+      #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.5 Representación de medidas análogas en códigos binarios
 
-    img(src="@/assets/curso/tema2/img19.png", alt="")
-    .row.justify-content-center.align-items-center.z-2.mb-5
-      .col-lg-10(data-aos="fade-right")
-        p.banner-text La representación de medidas análogas en códigos binarios permite que un valor proveniente de una variable física pueda ser interpretado por un sistema digital.
+      img(src="@/assets/curso/tema2/img19.png", alt="")
+      .row.justify-content-center.align-items-center.z-2.mb-5
+        .col-lg-10(data-aos="fade-right")
+          p.banner-text La representación de medidas análogas en códigos binarios permite que un valor proveniente de una variable física pueda ser interpretado por un sistema digital.
 
-    .row.mb-5.justify-content-center.align-items-center
-      .col-lg-3.col-md-12.mb-4.mb-lg-0
-        p.mb-3 Para comprender este proceso, debe considerarse que una señal análoga puede presentar numerosos valores dentro de un intervalo, mientras que un sistema digital trabaja con representaciones discretas.
-        p.mb-2 El conversor análogo-digital establece una correspondencia entre ambos tipos de información.
-        p.mb-0 Por ejemplo, de manera conceptual:
+      .row.mb-5.justify-content-center.align-items-center
+        .col-lg-3.col-md-12.mb-4.mb-lg-0
+          p.mb-3 Para comprender este proceso, debe considerarse que una señal análoga puede presentar numerosos valores dentro de un intervalo, mientras que un sistema digital trabaja con representaciones discretas.
+          p.mb-2 El conversor análogo-digital establece una correspondencia entre ambos tipos de información.
+          p.mb-0 Por ejemplo, de manera conceptual:
 
-      .col-lg-7.mb-0.mb-lg-0
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5.text-bold.mb-0 Figura 2.
-          span Representación simplificada
-        img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema2/img20.png", alt="Diagrama que representa el proceso de conversión de una señal analógica a digital. En la parte superior aparece “medida análoga”, seguida del valor “2,35 v”. una flecha apunta hacia un bloque denominado “adc”. debajo, otra flecha conduce a “código digital”, representado por la secuencia binaria “00101101”. finalmente, una flecha apunta hacia “procesamiento”.", data-aos="zoom-in").mx-auto
-        img.d-block.d-lg-none.mb-3(src="@/assets/curso/tema2/img21.png", alt="Diagrama que representa el proceso de conversión de una señal analógica a digital. En la parte superior aparece “medida análoga”, seguida del valor “2,35 v”. una flecha apunta hacia un bloque denominado “adc”. debajo, otra flecha conduce a “código digital”, representado por la secuencia binaria “00101101”. finalmente, una flecha apunta hacia “procesamiento”.", data-aos="zoom-in").mx-auto
-        figcaption.mb-0 Nota. SENA, (2026).
+        .col-lg-7.mb-0.mb-lg-0
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5.text-bold.mb-0 Figura 2.
+            span Representación simplificada
+          img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema2/img20.png", alt="Diagrama que representa el proceso de conversión de una señal analógica a digital. En la parte superior aparece “medida análoga”, seguida del valor “2,35 v”. una flecha apunta hacia un bloque denominado “adc”. debajo, otra flecha conduce a “código digital”, representado por la secuencia binaria “00101101”. finalmente, una flecha apunta hacia “procesamiento”.", data-aos="zoom-in").mx-auto
+          img.d-block.d-lg-none.mb-3(src="@/assets/curso/tema2/img21.png", alt="Diagrama que representa el proceso de conversión de una señal analógica a digital. En la parte superior aparece “medida análoga”, seguida del valor “2,35 v”. una flecha apunta hacia un bloque denominado “adc”. debajo, otra flecha conduce a “código digital”, representado por la secuencia binaria “00101101”. finalmente, una flecha apunta hacia “procesamiento”.", data-aos="zoom-in").mx-auto
+          figcaption.mb-0 Nota. SENA, (2026).
 
 
-    .row.mb-5.mb-lg-5.justify-content-center.align-items-center
-      .col-lg-10.mb-0.mb-lg-0
-        .container
-          .row.align-items-center.bg-color-0.p-4.mb-0.br-15
-            .col-lg-auto.d-none.d-lg-block.order-2
-              img(src="@/assets/curso/intro/img02.svg", style="max-width: 90px").mx-auto
-            .col-lg.order-1
-              p.mb-0 El código binario mostrado constituye únicamente un ejemplo ilustrativo. En una aplicación real, el código generado depende de las características del conversor, su resolución y el rango de entrada establecido.
+      .row.mb-5.mb-lg-5.justify-content-center.align-items-center
+        .col-lg-10.mb-0.mb-lg-0
+          .container
+            .row.align-items-center.bg-color-0.p-4.mb-0.br-15
+              .col-lg-auto.d-none.d-lg-block.order-2
+                img(src="@/assets/curso/intro/img02.svg", style="max-width: 90px").mx-auto
+              .col-lg.order-1
+                p.mb-0 El código binario mostrado constituye únicamente un ejemplo ilustrativo. En una aplicación real, el código generado depende de las características del conversor, su resolución y el rango de entrada establecido.
 
 
     .container
@@ -350,64 +354,65 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
           h3.titulo-con-imagen__texto Resolución de la conversión
 
-    .row.mb-4.justify-content-center.align-items-center
-      .col-lg-5.mb-4.mb-lg-0
-        p.mb-1 La resolución determina la capacidad del conversor para diferenciar distintos niveles de la señal de entrada.
-        p.mb-2 Un conversor con mayor cantidad de bits puede representar una mayor cantidad de niveles.
-        p.mb-3 Por ejemplo:
+    .bg-full-width.bg-fondo-2
+      .row.mb-4.justify-content-center.align-items-center
+        .col-lg-5.mb-4.mb-lg-0
+          p.mb-1 La resolución determina la capacidad del conversor para diferenciar distintos niveles de la señal de entrada.
+          p.mb-2 Un conversor con mayor cantidad de bits puede representar una mayor cantidad de niveles.
+          p.mb-3 Por ejemplo:
 
-        .px-4.py-3.br-15.border.border-2.br-15.br-color-05.col-9
-          .row.fw-bold.mb-2.pb-1
-            .col-4 Resolución
-            .col-8.text-center Cantidad de niveles posibles
-          .row.mb-0
-            .col-4 2 bits
-            .col-8.text-center 4
-          .row.mb-0
-            .col-4 3 bits
-            .col-8.text-center 8
-          .row.mb-0
-            .col-4 4 bits
-            .col-8.text-center 16
-          .row.mb-0
-            .col-4 8 bits
-            .col-8.text-center 256
+          .px-4.py-3.br-15.border.border-2.br-15.br-color-05.col-9
+            .row.fw-bold.mb-2.pb-1
+              .col-4 Resolución
+              .col-8.text-center Cantidad de niveles posibles
+            .row.mb-0
+              .col-4 2 bits
+              .col-8.text-center 4
+            .row.mb-0
+              .col-4 3 bits
+              .col-8.text-center 8
+            .row.mb-0
+              .col-4 4 bits
+              .col-8.text-center 16
+            .row.mb-0
+              .col-4 8 bits
+              .col-8.text-center 256
 
-      .col-lg-7.mb-0.mb-lg-0
-        .bg-color-12.p-4.br-15.h-100
-          p.mb-3 La relación puede expresarse mediante:
+        .col-lg-7.mb-0.mb-lg-0
+          .bg-color-12.p-4.br-15.h-100
+            p.mb-3 La relación puede expresarse mediante:
 
-          .px-3.py-2.br-10.d-inline-block.border.border-2.border-success.mb-3
-            p.mb-0.fw-bold Número de niveles = 2<sup>n</sup>
+            .px-3.py-2.br-10.d-inline-block.border.border-2.border-success.mb-3
+              p.mb-0.fw-bold Número de niveles = 2<sup>n</sup>
 
-          p.mb-3 Donde n corresponde al número de bits utilizados por el conversor.<br>Así, un conversor de 8 bits puede representar:
+            p.mb-3 Donde n corresponde al número de bits utilizados por el conversor.<br>Así, un conversor de 8 bits puede representar:
 
-          .px-3.py-2.br-10.d-inline-block.border.border-2.border-success.mb-3
-            p.mb-0.fw-bold 2<sup>8</sup> = 256 niveles
+            .px-3.py-2.br-10.d-inline-block.border.border-2.border-success.mb-3
+              p.mb-0.fw-bold 2<sup>8</sup> = 256 niveles
 
-          p.mb-0 Esto permite comprender por qué la resolución constituye una característica importante al momento de representar digitalmente una señal análoga.
+            p.mb-0 Esto permite comprender por qué la resolución constituye una característica importante al momento de representar digitalmente una señal análoga.
 
-    separador
+      separador
 
-    #t_2_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 2.6 Relación entre conversión y sistemas de control
+      #t_2_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 2.6 Relación entre conversión y sistemas de control
 
-    p.mb-3 La conversión análogo-digital adquiere especial importancia cuando la información captada por un sensor debe ser utilizada por un sistema electrónico digital.
-    p.mb-4 La secuencia puede representarse así:
+      p.mb-3 La conversión análogo-digital adquiere especial importancia cuando la información captada por un sensor debe ser utilizada por un sistema electrónico digital.
+      p.mb-4 La secuencia puede representarse así:
 
-    .bg-color-02.p-4.br-15.mb-5
-      .row.align-items-center
-        .col-lg-auto.d-none.d-lg-block
-          img(src="@/assets/curso/tema1/img06.svg", style="max-width: 90px").mx-auto
-        .col-lg
-          p.mb-0.text-bold Variable física → Sensor → Señal análoga → Acondicionamiento → Conversor análogo-digital → Código binario → Sistema de procesamiento → Decisión o acción de control
+      .bg-color-02.p-4.br-15.mb-5
+        .row.align-items-center
+          .col-lg-auto.d-none.d-lg-block
+            img(src="@/assets/curso/tema1/img06.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0.text-bold Variable física → Sensor → Señal análoga → Acondicionamiento → Conversor análogo-digital → Código binario → Sistema de procesamiento → Decisión o acción de control
 
-    .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-4.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require_src('@/assets/curso/tema2/img22.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 De esta manera, la conversión no constituye el objetivo final del proceso. Su función es permitir que la información procedente del mundo físico pueda ser representada de una forma adecuada para el procesamiento digital.
+      .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-5.mb-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require_src('@/assets/curso/tema2/img22.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 De esta manera, la conversión no constituye el objetivo final del proceso. Su función es permitir que la información procedente del mundo físico pueda ser representada de una forma adecuada para el procesamiento digital.
 
     p.mb-4 Esto permite establecer una conexión directa con el segundo resultado de aprendizaje del componente, relacionado con los principios básicos de los sistemas automáticos de control y con la implementación de sistemas electrónicos básicos basados en la adquisición de señales mediante sensores.
 

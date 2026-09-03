@@ -7,28 +7,29 @@
         span 4
       h1 Principios básicos de sistemas automáticos de control
 
-    img(src="@/assets/curso/tema4/img01.png", alt="")
-    .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
-      .col-lg-10(data-aos="fade-right")
-        p.banner-text Un sistema automático de control permite utilizar la información obtenida de un proceso para generar una respuesta sin que todas las acciones deban realizarse directamente por una persona. Para ello, el sistema recibe información mediante sensores, procesa las señales y determina una respuesta de acuerdo con las condiciones establecidas.
+    .bg-full-width.bg-fondo-1
+      img(src="@/assets/curso/tema4/img01.png", alt="")
+      .row.justify-content-center.align-items-center.z-2.mb-4.mb-lg-5
+        .col-lg-10(data-aos="fade-right")
+          p.banner-text Un sistema automático de control permite utilizar la información obtenida de un proceso para generar una respuesta sin que todas las acciones deban realizarse directamente por una persona. Para ello, el sistema recibe información mediante sensores, procesa las señales y determina una respuesta de acuerdo con las condiciones establecidas.
 
-    p.mb-4 En un sistema de este tipo, la información debe recorrer diferentes etapas antes de convertirse en una acción. La señal proveniente del sensor puede requerir acondicionamiento, conversión y procesamiento para que el sistema pueda interpretarla.
+      p.mb-4 En un sistema de este tipo, la información debe recorrer diferentes etapas antes de convertirse en una acción. La señal proveniente del sensor puede requerir acondicionamiento, conversión y procesamiento para que el sistema pueda interpretarla.
 
-    .row.mb-3.mb-lg-5.align-items-center
-      .col-lg-11
-        .bg-color-02.p-4.br-15.mb-0
-          .row.align-items-center
-            .col-lg-4.mb-2.mb-lg-0
-              span De manera general, el funcionamiento puede representarse así:
-            .col-lg-auto.d-none.d-lg-block
-              img(src="@/assets/curso/tema1/img06.svg", style="max-width: 90px").mx-auto
-            .col-lg
-              p.mb-0.text-bold Proceso → variable → sensor → señal → procesamiento → acción de control
+      .row.mb-3.mb-lg-5.align-items-center
+        .col-lg-11
+          .bg-color-02.p-4.br-15.mb-0
+            .row.align-items-center
+              .col-lg-4.mb-2.mb-lg-0
+                span De manera general, el funcionamiento puede representarse así:
+              .col-lg-auto.d-none.d-lg-block
+                img(src="@/assets/curso/tema1/img06.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0.text-bold Proceso → variable → sensor → señal → procesamiento → acción de control
 
-    separador
+      separador
 
-    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.1 Elementos de un sistema automático de control
+      #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 4.1 Elementos de un sistema automático de control
 
     p.mb-4 Un sistema básico de control puede estar conformado por diferentes elementos que cumplen funciones específicas.
 
@@ -111,85 +112,86 @@
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.3 Niveles lógicos
 
-    .row.mb-4.justify-content-center.align-items-stretch
-      .col-lg-6.mb-4.mb-lg-0
-        p.mb-3 Los sistemas digitales necesitan establecer estados que puedan ser interpretados por los circuitos electrónicos. Estos estados se representan mediante niveles lógicos.
-        p.mb-3 De manera general:
+    .bg-full-width.bg-fondo-1
+      .row.mb-4.justify-content-center.align-items-stretch
+        .col-lg-6.mb-4.mb-lg-0
+          p.mb-3 Los sistemas digitales necesitan establecer estados que puedan ser interpretados por los circuitos electrónicos. Estos estados se representan mediante niveles lógicos.
+          p.mb-3 De manera general:
 
-        .row.mb-3.g-3
-          .col-sm-6
-            .bg-color-02.p-3.br-15.text-center
-              p.mb-0.fw-bold Nivel lógico 0 → estado bajo
-          .col-sm-6
-            .bg-color-02.p-3.br-15.text-center
-              p.mb-0.fw-bold Nivel lógico 1 → estado alto
+          .row.mb-3.g-3
+            .col-sm-6
+              .bg-color-02.p-3.br-15.text-center
+                p.mb-0.fw-bold Nivel lógico 0 → estado bajo
+            .col-sm-6
+              .bg-color-02.p-3.br-15.text-center
+                p.mb-0.fw-bold Nivel lógico 1 → estado alto
 
-        p.mb-0 Los niveles lógicos permiten representar condiciones del proceso mediante señales que pueden ser utilizadas por circuitos digitales.
-        
-      .col-lg-6.mb-0.mb-lg-0
-        .bg-color-01.p-4.br-15.h-100.align-content-center
-          .row.align-items-center
-            .col-lg-5.p-2
-              p.mb-3.fw-bold Por ejemplo:
-              p.mb-0 De esta manera, una condición física puede convertirse en una condición lógica que posteriormente será procesada.
-            
-            .col-lg-7
-              .px-3.py-2.br-15.border.border-2.br-15.br-color-05.col-12
-                .row.fw-bold.mb-2.pb-1
-                  .col-6   Condición
-                  .col-6.text-center Estado lógico
-                .row.mb-0
-                  .col-7 Sensor desactivado
-                  .col-5.text-center 0
-                .row.mb-0
-                  .col-7 Sensor activado
-                  .col-5.text-center 1
-    
-    
-    p.mb-4 La señal binaria adquiere así una función importante dentro de los sistemas de control, ya que permite representar estados que pueden ser interpretados por los circuitos electrónicos.
+          p.mb-0 Los niveles lógicos permiten representar condiciones del proceso mediante señales que pueden ser utilizadas por circuitos digitales.
+          
+        .col-lg-6.mb-0.mb-lg-0
+          .bg-color-01.p-4.br-15.h-100.align-content-center
+            .row.align-items-center
+              .col-lg-5.p-2
+                p.mb-3.fw-bold Por ejemplo:
+                p.mb-0 De esta manera, una condición física puede convertirse en una condición lógica que posteriormente será procesada.
+              
+              .col-lg-7
+                .px-3.py-2.br-15.border.border-2.br-15.br-color-05.col-12
+                  .row.fw-bold.mb-2.pb-1
+                    .col-6   Condición
+                    .col-6.text-center Estado lógico
+                  .row.mb-0
+                    .col-7 Sensor desactivado
+                    .col-5.text-center 0
+                  .row.mb-0
+                    .col-7 Sensor activado
+                    .col-5.text-center 1
+      
+      
+      p.mb-4 La señal binaria adquiere así una función importante dentro de los sistemas de control, ya que permite representar estados que pueden ser interpretados por los circuitos electrónicos.
 
-    separador
+      separador
 
-    #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 4.4 Compuertas lógicas
+      #t_4_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 4.4 Compuertas lógicas
 
-    .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-5.mb-5
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require_src('@/assets/curso/tema4/img10.png')})`}"
-      )
-      .bloque-texto-g__texto.p-4
-        p.mb-0 Las compuertas lógicas son elementos utilizados para procesar señales binarias. Su funcionamiento permite establecer una relación entre una o varias entradas y generar una salida de acuerdo con una determinada condición lógica.
+      .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-5.mb-5
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require_src('@/assets/curso/tema4/img10.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0 Las compuertas lógicas son elementos utilizados para procesar señales binarias. Su funcionamiento permite establecer una relación entre una o varias entradas y generar una salida de acuerdo con una determinada condición lógica.
 
-    .container
-      .row.mb-4.align-items-stretch
-        .col-lg-7.mb-4.mb-lg-0.bg-color-12.p-4.br-15
-          .row
-            .col-lg-4.col-md-12
-              p.mb-2 Entre las compuertas utilizadas en sistemas digitales se encuentran:
-            .col-lg-2.col-md-6.mb-3.mb-lg-0
-              ul.lista-ul--color.mb-0
-                li.d-flex.mb-1
-                  i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span AND.
-                li.d-flex.mb-1
-                  i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span OR.
-                li.d-flex.mb-0
-                  i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span NOT.
-            .col-lg-2.col-md-6.mb-3.mb-lg-0
-              ul.lista-ul--color.mb-0
-                li.d-flex.mb-1
-                  i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span NAND.
-                li.d-flex.mb-1
-                  i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span NOR.
-                li.d-flex.mb-0
-                  i.fas.fa-square.me-2(style="color: #74A2F2;")
-                  span XOR.
-            .col-lg-4
-              p.mb-0 Cada una presenta una lógica de funcionamiento particular.
+      .container
+        .row.mb-4.align-items-stretch
+          .col-lg-7.mb-4.mb-lg-0.bg-color-12.p-4.br-15
+            .row
+              .col-lg-4.col-md-12
+                p.mb-2 Entre las compuertas utilizadas en sistemas digitales se encuentran:
+              .col-lg-2.col-md-6.mb-3.mb-lg-0
+                ul.lista-ul--color.mb-0
+                  li.d-flex.mb-1
+                    i.fas.fa-square.me-2(style="color: #74A2F2;")
+                    span AND.
+                  li.d-flex.mb-1
+                    i.fas.fa-square.me-2(style="color: #74A2F2;")
+                    span OR.
+                  li.d-flex.mb-0
+                    i.fas.fa-square.me-2(style="color: #74A2F2;")
+                    span NOT.
+              .col-lg-2.col-md-6.mb-3.mb-lg-0
+                ul.lista-ul--color.mb-0
+                  li.d-flex.mb-1
+                    i.fas.fa-square.me-2(style="color: #74A2F2;")
+                    span NAND.
+                  li.d-flex.mb-1
+                    i.fas.fa-square.me-2(style="color: #74A2F2;")
+                    span NOR.
+                  li.d-flex.mb-0
+                    i.fas.fa-square.me-2(style="color: #74A2F2;")
+                    span XOR.
+              .col-lg-4
+                p.mb-0 Cada una presenta una lógica de funcionamiento particular.
 
 
     .row.mb-4.justify-content-center.align-items-center
@@ -304,52 +306,53 @@
 
     p.mb-5 Si los sensores representan condiciones diferentes de un proceso, la lógica puede determinar cuándo debe activarse la salida.
 
-    .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
-      .col-lg-10.mx-auto
-        .bg-fondo-02.br-15.mb-0.p-4.justify-content-center
-          .col-lg-9.ml-11
-            p.mb-1.fw-bold Ejemplo aplicado:
-            p.mb-0 En una máquina industrial pueden existir dos condiciones de seguridad:
-            p.mb-0 Sensor A: protección cerrada.
-            p.mb-0 Sensor B: operador autorizado.
-            p.mb-0 La máquina podrá iniciar únicamente cuando ambas condiciones estén activas.
-            p.mb-0.text-bold La lógica sería: Protección cerrada AND operador autorizado → habilitación de máquina
+    .bg-full-width.bg-fondo-2
+      .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
+        .col-lg-10.mx-auto
+          .bg-fondo-02.br-15.mb-0.p-4.justify-content-center
+            .col-lg-9.ml-11
+              p.mb-1.fw-bold Ejemplo aplicado:
+              p.mb-0 En una máquina industrial pueden existir dos condiciones de seguridad:
+              p.mb-0 Sensor A: protección cerrada.
+              p.mb-0 Sensor B: operador autorizado.
+              p.mb-0 La máquina podrá iniciar únicamente cuando ambas condiciones estén activas.
+              p.mb-0.text-bold La lógica sería: Protección cerrada AND operador autorizado → habilitación de máquina
 
 
-    .row.justify-content-center.mb-4
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-2
-          h5.text-bold.mb-0 Tabla 3.
-          span Tabla de verdad
-        .tabla-a.color-acento-contenido.tb-custom.mb-2
-          table
-            thead
-              tr
-                th Protección A
-                th Autorización B
-                th Habilitación
-            tbody
-              tr
-                td.text-center 0
-                td.text-center 0
-                td.text-center 0
-              tr
-                td.text-center 0
-                td.text-center 1
-                td.text-center 0
-              tr
-                td.text-center 1
-                td.text-center 0
-                td.text-center 0
-              tr
-                td.text-center 1
-                td.text-center 1
-                td.text-center 1
-        figcaption.mb-3 Nota. SENA, (2026).
+      .row.justify-content-center.mb-4
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido.mb-2
+            h5.text-bold.mb-0 Tabla 3.
+            span Tabla de verdad
+          .tabla-a.color-acento-contenido.tb-custom.mb-2
+            table
+              thead
+                tr
+                  th Protección A
+                  th Autorización B
+                  th Habilitación
+              tbody
+                tr
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
+                tr
+                  td.text-center 0
+                  td.text-center 1
+                  td.text-center 0
+                tr
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 0
+                tr
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 1
+          figcaption.mb-3 Nota. SENA, (2026).
 
-        p.mb-0 Este ejemplo permite observar cómo una condición física puede convertirse en una señal lógica y posteriormente en una decisión de control.
+          p.mb-0 Este ejemplo permite observar cómo una condición física puede convertirse en una señal lógica y posteriormente en una decisión de control.
 
-    separador
+      separador
 
     #t_4_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.6 Relé como elemento de control

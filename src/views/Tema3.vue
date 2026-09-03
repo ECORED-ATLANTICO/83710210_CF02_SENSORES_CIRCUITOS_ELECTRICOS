@@ -7,53 +7,54 @@
         span 3
       h1 Circuitos básicos para el acondicionamiento
 
-    .row.mb-4.justify-content-center.align-items-center
-      .col-lg-3.col-md-8.mb-4.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema3/img01.png", data-aos="zoom-in").mx-auto
-      .col-lg-9.mb-0.mb-lg-0
-        p.mb-3 Los circuitos eléctricos y electrónicos permiten modificar o adaptar las características de las señales obtenidas mediante sensores. Para comprender su utilización en el acondicionamiento, es necesario reconocer algunos principios relacionados con la corriente eléctrica, la tensión y la resistencia.
+    .bg-full-width.bg-fondo-1
+      .row.mb-4.justify-content-center.align-items-center
+        .col-lg-3.col-md-8.mb-4.mb-lg-0
+          figure
+            img(src="@/assets/curso/tema3/img01.png", data-aos="zoom-in").mx-auto
+        .col-lg-9.mb-0.mb-lg-0
+          p.mb-3 Los circuitos eléctricos y electrónicos permiten modificar o adaptar las características de las señales obtenidas mediante sensores. Para comprender su utilización en el acondicionamiento, es necesario reconocer algunos principios relacionados con la corriente eléctrica, la tensión y la resistencia.
 
-        .container
-          .row.align-items-center.bg-color-0.p-4.mb-0.br-15
-            .col-lg-auto.d-none.d-lg-block.order-2
-              img(src="@/assets/curso/intro/img02.svg", style="max-width: 90px").mx-auto
-            .col-lg.order-1
-              p.mb-0 En los sistemas de instrumentación, estos principios permiten establecer configuraciones mediante las cuales una señal puede ser adaptada antes de ser enviada a una etapa de procesamiento. De esta manera, el comportamiento eléctrico del circuito se relaciona directamente con las características de la señal que se desea obtener.
+          .container
+            .row.align-items-center.bg-color-0.p-4.mb-0.br-15
+              .col-lg-auto.d-none.d-lg-block.order-2
+                img(src="@/assets/curso/intro/img02.svg", style="max-width: 90px").mx-auto
+              .col-lg.order-1
+                p.mb-0 En los sistemas de instrumentación, estos principios permiten establecer configuraciones mediante las cuales una señal puede ser adaptada antes de ser enviada a una etapa de procesamiento. De esta manera, el comportamiento eléctrico del circuito se relaciona directamente con las características de la señal que se desea obtener.
 
 
-    separador
+      separador
 
-    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.1 Principios eléctricos aplicados al acondicionamiento
+      #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 3.1 Principios eléctricos aplicados al acondicionamiento
 
-    .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").tarjeta
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/tema3/img02.png", alt="La corriente eléctrica")
-          .crd_hover_txt--body
-            h4.mb-3.text-center La corriente eléctrica
-            p.mb-0 Corresponde al movimiento ordenado de cargas eléctricas a través de un material conductor. Para que exista corriente debe establecerse una condición que permita el desplazamiento de las cargas dentro del circuito.
+      .row.justify-content-center.mb-5
+        .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left").tarjeta
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema3/img02.png", alt="La corriente eléctrica")
+            .crd_hover_txt--body
+              h4.mb-3.text-center La corriente eléctrica
+              p.mb-0 Corresponde al movimiento ordenado de cargas eléctricas a través de un material conductor. Para que exista corriente debe establecerse una condición que permita el desplazamiento de las cargas dentro del circuito.
 
-      .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").tarjeta
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/tema3/img03.png", alt="La tensión eléctrica")
-          .crd_hover_txt--body
-            h4.mb-3.text-center La tensión eléctrica
-            p.mb-0 Es la diferencia de potencial eléctrico entre dos puntos. Permite impulsar el movimiento de las cargas a través de un conductor.
+        .col-xl-4.col-lg-6.col-md-12.col-12.mb-4.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left").tarjeta
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema3/img03.png", alt="La tensión eléctrica")
+            .crd_hover_txt--body
+              h4.mb-3.text-center La tensión eléctrica
+              p.mb-0 Es la diferencia de potencial eléctrico entre dos puntos. Permite impulsar el movimiento de las cargas a través de un conductor.
 
-      .col-xl-4.col-lg-6.col-md-12.col-12.mb-0.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left").tarjeta
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/tema3/img04.png", alt="La resistencia eléctrica")
-          .crd_hover_txt--body
-            h4.mb-3.text-center La resistencia eléctrica
-            p.mb-0 Es la oposición que presenta un material al paso de la corriente eléctrica.
+        .col-xl-4.col-lg-6.col-md-12.col-12.mb-0.mb-xl-0
+          .crd_hover_txt(data-aos="flip-left").tarjeta
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/tema3/img04.png", alt="La resistencia eléctrica")
+            .crd_hover_txt--body
+              h4.mb-3.text-center La resistencia eléctrica
+              p.mb-0 Es la oposición que presenta un material al paso de la corriente eléctrica.
 
     .row.mb-4.justify-content-center.align-items-center
       .col-lg-8.col-md-12.mb-4.mb-lg-0
@@ -149,57 +150,58 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
           h3.titulo-con-imagen__texto Divisor de tensión
 
-    .row.mb-5.justify-content-center
-      .col-lg-2.col-md-12.mb-4.mb-lg-0.align-content-center
-        p.mb-3 El divisor de tensión es una configuración que permite obtener una tensión de salida a partir de una tensión de entrada y de dos o más resistencias.
-        p.mb-0 Una representación conceptual es:
+    .bg-full-width.bg-fondo-1
+      .row.mb-5.justify-content-center
+        .col-lg-2.col-md-12.mb-4.mb-lg-0.align-content-center
+          p.mb-3 El divisor de tensión es una configuración que permite obtener una tensión de salida a partir de una tensión de entrada y de dos o más resistencias.
+          p.mb-0 Una representación conceptual es:
 
-      .col-lg-4.col-md-12.mb-4.mb-lg-0
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5.text-bold.mb-0 Figura 4.
-          span División de tensión
-        img(src="@/assets/curso/tema3/img08.png", alt="Diagrama de un divisor de tensión formado por dos resistencias R1 y R2 conectadas en serie entre Vin y GND, con Vout tomado entre ellas.", data-aos="zoom-in").mx-auto
-        figcaption.mb-0 Nota. SENA, (2026).
+        .col-lg-4.col-md-12.mb-4.mb-lg-0
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5.text-bold.mb-0 Figura 4.
+            span División de tensión
+          img(src="@/assets/curso/tema3/img08.png", alt="Diagrama de un divisor de tensión formado por dos resistencias R1 y R2 conectadas en serie entre Vin y GND, con Vout tomado entre ellas.", data-aos="zoom-in").mx-auto
+          figcaption.mb-0 Nota. SENA, (2026).
 
-      .col-lg-6.col-md-12.mb-0.mb-lg-0
-        .bg-color-08.p-4.br-15.h-100.align-content-center
-          p.mb-3 En esta configuración, la tensión de salida depende de la relación entre las resistencias.
-          p.mb-2 La expresión general para dos resistencias es:
-          p.mb-3.fw-bold Vout = Vin × R2 / (R1 + R2)
-          p.mb-0 Esta relación permite determinar el nivel de tensión disponible en la salida.
+        .col-lg-6.col-md-12.mb-0.mb-lg-0
+          .bg-color-08.p-4.br-15.h-100.align-content-center
+            p.mb-3 En esta configuración, la tensión de salida depende de la relación entre las resistencias.
+            p.mb-2 La expresión general para dos resistencias es:
+            p.mb-3.fw-bold Vout = Vin × R2 / (R1 + R2)
+            p.mb-0 Esta relación permite determinar el nivel de tensión disponible en la salida.
 
-    .row.align-items-center.justify-content-center.mb-4(data-aos="fade-right")
-      .col-lg-12.col-xl-10.mx-auto
-        .bg-fondo-03.br-15.mb-0.p-4.p-lg-5
-          .row.align-items-center
-            .col-lg-8.mb-3.mb-lg-0
-              .row.mb-3
-                .col-sm-3
-                  p.mb-1.fw-bold Ejemplo:
-                .col-sm-4
-                  p.mb-1.fw-bold Si:
-                  p.mb-1 <b>Vin</b> = 10 V
-                  p.mb-1 <b>R1</b> = 10 kΩ
-                  p.mb-0 <b>R2</b> = 10 kΩ
-                .col-sm-5
-                  p.mb-1.fw-bold Entonces:
-                  p.mb-1 <b>Vout</b> = 10 × 10 / (10 + 10)
-                  p.mb-0 <b>Vout</b> = 5 V
-              p.mb-0 La salida corresponde a 5 V.
-              p.mb-0 Este principio puede utilizarse para adaptar niveles de tensión de una señal antes de su ingreso a otra etapa del sistema.
+      .row.align-items-center.justify-content-center.mb-4(data-aos="fade-right")
+        .col-lg-12.col-xl-10.mx-auto
+          .bg-fondo-03.br-15.mb-0.p-4.p-lg-5
+            .row.align-items-center
+              .col-lg-8.mb-3.mb-lg-0
+                .row.mb-3
+                  .col-sm-3
+                    p.mb-1.fw-bold Ejemplo:
+                  .col-sm-4
+                    p.mb-1.fw-bold Si:
+                    p.mb-1 <b>Vin</b> = 10 V
+                    p.mb-1 <b>R1</b> = 10 kΩ
+                    p.mb-0 <b>R2</b> = 10 kΩ
+                  .col-sm-5
+                    p.mb-1.fw-bold Entonces:
+                    p.mb-1 <b>Vout</b> = 10 × 10 / (10 + 10)
+                    p.mb-0 <b>Vout</b> = 5 V
+                p.mb-0 La salida corresponde a 5 V.
+                p.mb-0 Este principio puede utilizarse para adaptar niveles de tensión de una señal antes de su ingreso a otra etapa del sistema.
 
-            .col-lg-4.d-none.d-lg-block.text-center
-              img(src="@/assets/curso/tema2/img04.png", style="max-width: 200px").mx-auto
+              .col-lg-4.d-none.d-lg-block.text-center
+                img(src="@/assets/curso/tema2/img04.png", style="max-width: 200px").mx-auto
 
-    separador
+      separador
 
-    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.3 Aplicación del puente de <em>Wheatstone</em>
+      #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 3.3 Aplicación del puente de <em>Wheatstone</em>
 
-    img(src="@/assets/curso/tema3/img09.png", alt="")
-    .row.justify-content-center.align-items-center.z-2.mb-5
-      .col-lg-10(data-aos="fade-right")
-        p.banner-text El puente de <em>Wheatstone</em> constituye otra configuración utilizada para el acondicionamiento de señales provenientes de sensores. Su aplicación resulta especialmente importante cuando el sensor presenta una variación de resistencia asociada con un cambio de la variable física.
+      img(src="@/assets/curso/tema3/img09.png", alt="")
+      .row.justify-content-center.align-items-center.z-2.mb-5
+        .col-lg-10(data-aos="fade-right")
+          p.banner-text El puente de <em>Wheatstone</em> constituye otra configuración utilizada para el acondicionamiento de señales provenientes de sensores. Su aplicación resulta especialmente importante cuando el sensor presenta una variación de resistencia asociada con un cambio de la variable física.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-3.mb-4.mb-lg-0
@@ -238,36 +240,37 @@
 
     p.mb-3 De esta manera, el puente permite transformar una variación relacionada con una magnitud física en una señal eléctrica que puede continuar hacia otras etapas del sistema.
 
-    separador
+    .bg-full-width.bg-fondo-2
+      separador
 
-    #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.4 Relación entre el circuito y la señal obtenida
+      #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 3.4 Relación entre el circuito y la señal obtenida
 
-    .row.mb-4.justify-content-center.align-items-stretch
-      .col-lg-6.mb-4.mb-lg-0
-        p.mb-3 La configuración del circuito determina las características de la señal disponible en su salida. Por esta razón, el diseño de un circuito de acondicionamiento debe considerar la relación entre la señal de entrada, los componentes utilizados y la señal que se requiere obtener.
-        p.mb-3 La secuencia puede representarse de la siguiente manera:
-        ul.lista-ul--color.mb-0
-          li.d-flex.mb-1
-            i.fas.fa-arrow-right.me-2(style="color: #0F8268;")
-            span.fw-bold Circuito de acondicionamiento
-          li.d-flex.mb-1
-            i.fas.fa-arrow-right.me-2(style="color: #0F8268;")
-            span.fw-bold Señal adaptada
-          li.d-flex.mb-0
-            i.fas.fa-arrow-right.me-2(style="color: #0F8268;")
-            span.fw-bold Conversión o procesamiento
+      .row.mb-4.justify-content-center.align-items-stretch
+        .col-lg-6.mb-4.mb-lg-0
+          p.mb-3 La configuración del circuito determina las características de la señal disponible en su salida. Por esta razón, el diseño de un circuito de acondicionamiento debe considerar la relación entre la señal de entrada, los componentes utilizados y la señal que se requiere obtener.
+          p.mb-3 La secuencia puede representarse de la siguiente manera:
+          ul.lista-ul--color.mb-0
+            li.d-flex.mb-1
+              i.fas.fa-arrow-right.me-2(style="color: #0F8268;")
+              span.fw-bold Circuito de acondicionamiento
+            li.d-flex.mb-1
+              i.fas.fa-arrow-right.me-2(style="color: #0F8268;")
+              span.fw-bold Señal adaptada
+            li.d-flex.mb-0
+              i.fas.fa-arrow-right.me-2(style="color: #0F8268;")
+              span.fw-bold Conversión o procesamiento
 
-      .col-lg-6.mb-0.mb-lg-0
-        .bg-color-08.p-4.br-15.h-100
-          p.mb-2 La señal adaptada debe conservar la información necesaria sobre la variable que se está midiendo.
-          p.mb-0 Por ejemplo, si un sensor modifica su resistencia cuando cambia una variable física, el circuito de acondicionamiento puede convertir esta variación en una modificación de tensión que pueda ser posteriormente procesada.
-          p.mb-0 Esta relación permite comprender por qué los componentes eléctricos no se seleccionan únicamente por su disponibilidad, sino de acuerdo con la función que deben cumplir dentro del sistema.
+        .col-lg-6.mb-0.mb-lg-0
+          .bg-color-08.p-4.br-15.h-100
+            p.mb-2 La señal adaptada debe conservar la información necesaria sobre la variable que se está midiendo.
+            p.mb-0 Por ejemplo, si un sensor modifica su resistencia cuando cambia una variable física, el circuito de acondicionamiento puede convertir esta variación en una modificación de tensión que pueda ser posteriormente procesada.
+            p.mb-0 Esta relación permite comprender por qué los componentes eléctricos no se seleccionan únicamente por su disponibilidad, sino de acuerdo con la función que deben cumplir dentro del sistema.
 
-    separador
+      separador
 
-    #t_3_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.5 Del acondicionamiento al sistema electrónico
+      #t_3_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+        h2 3.5 Del acondicionamiento al sistema electrónico
 
     .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-5.mb-5
       .bloque-texto-g__img(

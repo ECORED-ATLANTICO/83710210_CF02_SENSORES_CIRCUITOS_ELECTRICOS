@@ -258,16 +258,22 @@ figcaption
     padding-right: 3rem
 
 .bg-fondo-1
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema1/bg01.png") !important
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema5/bg01.png") !important
   // background-image: url("../assets/curso/tema1/bg01.png") !important
   background-position: center
   background-size: cover
 
 .bg-fondo-2
-  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema1/bg02.png") !important
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema5/bg02.png") !important
   // background-image: url("../assets/curso/tema1/bg01.png") !important
   background-position: center
   background-size: cover
+
+// .bg-fondo-2
+//   background-image: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 12%, rgba(255, 255, 255, 0) 88%, rgba(255, 255, 255, 1) 100%), url("../assets/curso/tema1/bg02.png") !important
+//   // background-image: url("../assets/curso/tema1/bg01.png") !important
+//   background-position: center
+//   background-size: cover
 
 // .bg-fondo-2
 //   // background-image: url("../assets/curso/tema1/img24.png") !important
@@ -302,6 +308,16 @@ figcaption
   background-size: 100% 100%
   border-radius: 15px
   // width: 92%
+  @media screen and (max-width: $bp-max-md)
+    width: 100%
+
+.bg-fondo-02_2
+  position: relative
+  background-image: url("../assets/curso/tema2/img12.png") !important
+  background-position: center
+  background-size: 100% 100%
+  border-radius: 15px
+  width: 92%
   @media screen and (max-width: $bp-max-md)
     width: 100%
 
@@ -1426,6 +1442,23 @@ a, button, div
   content: ""
   position: absolute
   left: -5rem
+  top: 50%
+  transform: translateY(-50%)
+  width: 25%
+  aspect-ratio: 749 / 528
+  background-image: url("../assets/curso/tema2/img11.png")
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: right center
+  z-index: 1
+
+  @media screen and (max-width: $bp-max-md)
+    display: none
+
+.bg-fondo-02_2:before
+  content: ""
+  position: absolute
+  right: -5rem
   top: 50%
   transform: translateY(-50%)
   width: 25%

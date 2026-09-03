@@ -6,7 +6,7 @@
     
     img(src="@/assets/curso/intro/img04.png", alt="")
     .row.justify-content-center.align-items-center.z-2.mb-5
-      .col-lg-11(data-aos="fade-right")
+      .col-lg-10(data-aos="fade-right")
         p.banner-text En el desarrollo del componente se estudian los principios eléctricos relacionados con tensión, corriente y resistencia, así como la aplicación de la Ley de Ohm en circuitos básicos utilizados para el acondicionamiento de señales. Se profundiza en configuraciones como el divisor de tensión y el puente de Wheatstone, comprendiendo su utilidad para adaptar señales provenientes de sensores y obtener respuestas eléctricas relacionadas con las variables físicas del proceso.
       
     .row.mb-4.justify-content-center.align-items-center
