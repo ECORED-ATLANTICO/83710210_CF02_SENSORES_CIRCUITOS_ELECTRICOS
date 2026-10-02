@@ -146,7 +146,7 @@ export default {
         subMenu: [
           {
             numero: '4.1',
-            titulo: 'Elementos de un sistema de control',
+            titulo: 'Elementos de un sistema automático de control',
             hash: 't_4_1',
           },
           {
@@ -199,7 +199,7 @@ export default {
           },
           {
             numero: '5.2',
-            titulo: 'Aplicación en procesos industriales',
+            titulo: 'Aplicación de sensores y control en procesos industriales',
             hash: 't_5_2',
           },
           {
@@ -216,6 +216,11 @@ export default {
             numero: '5.5',
             titulo: 'Integración del proceso',
             hash: 't_5_5',
+          },
+          {
+            numero: '5.6',
+            titulo: 'Consideraciones para la implementación',
+            hash: 't_5_6',
           },
         ],
       },
@@ -246,7 +251,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/83710210_CF02_DU.pdf',
+        download: 'downloads/83710210_CF02_CFA.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -369,7 +374,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Miguel De Jesús Paredes Maestre',
+          nombre: 'Miguel de Jesús Paredes Maestre',
           cargo: 'Responsable de línea de producción',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -379,12 +384,12 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Mario Morales Cabrera',
+          nombre: 'Wilmar Urrutia Martínez',
           cargo: 'Experto temático',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Jair Enrique Coll Gallardo',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -394,7 +399,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta',
+          nombre: 'Carmen Alicia Martínez Torres',
           cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
@@ -420,21 +425,16 @@ export default {
       autores: [
         {
           nombre: 'Luz Karime Amaya Cabra',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
           nombre: 'Laura Daniela Burgos Rueda',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Karine Isabel Ospino Fritz',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
-        },
-        {
-          nombre: 'Jonathan Adié Villafañe',
+          nombre: 'Luis Gabriel Urueta',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },

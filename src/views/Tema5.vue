@@ -71,7 +71,7 @@
       .col-lg-10.mx-auto
         .bg-fondo-02.br-15.mb-0.p-4.justify-content-center
           .col-lg-9.ml-11
-            h5.fw-bold.mb-2 Ejemplo aplicado
+            h5.fw-bold.mb-2 Ejemplo de integración
             p.mb-1 Considérese un sistema encargado de controlar el nivel de un tanque.
             p.mb-1 La variable de interés corresponde al <b>nivel del líquido</b>.
             p.mb-0 El sistema puede desarrollarse conceptualmente de la siguiente manera:
@@ -83,7 +83,6 @@
           span Sistema
         img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema5/img09.png", alt="Diagrama de flujo vertical que representa un sistema de medición y control del nivel de un tanque. El proceso inicia con Nivel del tanque, que pasa a un Sensor. Luego, la señal continúa hacia un Acondicionador de señal, seguido de Procesamiento electrónico y Circuito de control. Finalmente, el circuito activa una Bomba / válvula. Las etapas están representadas en recuadros y conectadas mediante flechas descendentes.", data-aos="zoom-in").mx-auto
         img.d-block.d-lg-none.mb-3(src="@/assets/curso/tema5/img10.png", alt="Diagrama de flujo vertical que representa un sistema de medición y control del nivel de un tanque. El proceso inicia con Nivel del tanque, que pasa a un Sensor. Luego, la señal continúa hacia un Acondicionador de señal, seguido de Procesamiento electrónico y Circuito de control. Finalmente, el circuito activa una Bomba / válvula. Las etapas están representadas en recuadros y conectadas mediante flechas descendentes.", data-aos="zoom-in").mx-auto
-        figcaption.mb-0 Nota. SENA, (2026).
 
     p.mb-2 En este ejemplo, el sensor proporciona información sobre el nivel. La señal puede requerir acondicionamiento y posteriormente ser procesada para determinar si el sistema debe activar o desactivar un elemento de actuación.
     p.mb-4 De esta manera, una condición física del proceso puede convertirse en una acción de control.
@@ -179,7 +178,6 @@
           span Salida de circuito
         img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema5/img12.png", alt="Diagrama de un sistema de control lógico. Sensor A y Sensor B proporcionan señales de entrada a un bloque lógico AND. La salida del bloque AND se dirige mediante una flecha hacia un Relé, que a su vez envía la señal hacia una Máquina. El diagrama representa una condición en la que las señales de ambos sensores deben estar activas para accionar la máquina.", data-aos="zoom-in").mx-auto
         img.d-block.d-lg-none.mb-3(src="@/assets/curso/tema5/img13.png", alt="Diagrama de un sistema de control lógico. Sensor A y Sensor B proporcionan señales de entrada a un bloque lógico AND. La salida del bloque AND se dirige mediante una flecha hacia un Relé, que a su vez envía la señal hacia una Máquina. El diagrama representa una condición en la que las señales de ambos sensores deben estar activas para accionar la máquina.", data-aos="zoom-in").mx-auto
-        figcaption.mb-3 Nota. SENA, (2026).
 
         p.mb-0 Este tipo de aplicación permite observar cómo las señales obtenidas mediante sensores pueden utilizarse para establecer condiciones de control.
 
@@ -303,7 +301,6 @@
           span Etapas
         .tabla-a.color-acento-contenido.tb-custom.mb-3
           table
-            caption Nota. SENA, (2026).
             thead
               tr
                 th Etapa
@@ -389,7 +386,7 @@
 
         .col-lg-4.col-md-12.mb-0.mb-lg-0
           p.mb-2 El análisis previo permite reducir errores en la selección de los dispositivos y facilita la construcción de una solución coherente con las necesidades del proceso.
-          p.mb-0 Escuche el siguiente pódcast para integrar los conceptos estudiados y reconocer cómo una señal puede ser procesada hasta generar una acción dentro de un sistema automático de control.
+          p.mb-0 Revise el siguiente pódcast para integrar los conceptos estudiados y reconocer cómo una señal puede ser procesada hasta generar una acción dentro de un sistema automático de control.
 
     .container
       .row.justify-content-center.align-items-center.mb-3
@@ -399,9 +396,9 @@
               figure
                 img(src="@/assets/curso/tema1/img33.png", data-aos="fade-right").w-50.mx-auto
             .col-lg-7.order-1.order-md-1.order-lg-1.p-4.p-lg-4
-              p(data-aos="fade-left").mb-4 A continuación, se invita a ir al siguiente podcast: 
+              p(data-aos="fade-left").mb-4 A continuación, se invita a ir al siguiente pódcast: 
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                texto="Podcast pendiente"
+                texto="De la señal a la acción: principios de un sistema automático de control"
                 tiempo
                 :audio="require_src('@/assets/curso/audio/2.mp3')"
               )

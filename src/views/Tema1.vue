@@ -24,7 +24,7 @@
               .col-lg-auto.d-none.d-lg-block.order-2
                 img(src="@/assets/curso/tema1/img04.svg", style="max-width: 90px").mx-auto
               .col-lg.order-1
-                p.mb-0 El Diseño Curricular establece como conocimiento de proceso “diseñar circuitos básicos para el acondicionamiento de señales provenientes de sensores”, relacionando este proceso con conocimientos como electrónica, sensor, transductor, señal análoga, señal binaria, potencia y conversor análogo-digital. 
+                p.mb-0 El diseño curricular establece como conocimiento de proceso “diseñar circuitos básicos para el acondicionamiento de señales provenientes de sensores”, relacionando este proceso con conocimientos como electrónica, sensor, transductor, señal análoga, señal binaria, potencia y conversor análogo-digital. 
 
       separador
     
@@ -126,10 +126,10 @@
             .row.align-items-center.mb-3.mb-lg-1
               .col-lg-auto.mb-2.mb-lg-0
                 p.mb-2 La Ley de Ohm establece la relación:
-                p.mb-0 Donde: 
               .col-lg
                 .px-3.py-2.br-10.d-inline-block.border.border-2.border-success
                   p.mb-0.fw-bold.fs-5 V = I × R
+              p.mb-0 Donde: 
 
             ul.lista-ul--color.mb-0
               li.d-flex.mb-1
@@ -192,7 +192,7 @@
     separador
 
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.5 Puente de <i>Wheatstone</i>
+      h2 1.5 Puente de Wheatstone
 
 
     .container
@@ -211,17 +211,20 @@
         p.mb-0 De manera conceptual, el funcionamiento puede representarse así:
 
     .bg-full-width.bg-fondo-2
-      .bg-color-02.p-4.br-15.mb-3
+      .bg-color-02.p-4.br-15.mb-4
         .row.align-items-center
           .col-lg-auto.d-none.d-lg-block
             img(src="@/assets/curso/tema1/img06.svg", style="max-width: 90px").mx-auto
           .col-lg
             p.mb-0.text-bold Variable física → Cambio en la resistencia del sensor → Desequilibrio del puente → Diferencia de potencial → Señal para procesamiento
 
+      p.mb-2 Cuando la variable física modifica el comportamiento del sensor, se produce una variación en las condiciones eléctricas del puente. Esta variación puede ser utilizada como información para las etapas posteriores del sistema.
+      p.mb-4 El puente de Wheatstone permite, por tanto, establecer una relación entre una variación física y una respuesta eléctrica medible.
+
       separador
 
       #t_1_6.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 1.6. Relación entre acondicionamiento y procesamiento
+        h2 1.6 Relación entre acondicionamiento y procesamiento
 
       p.mb-3 El acondicionamiento no debe considerarse como una etapa aislada. Hace parte de una cadena en la que la información pasa desde la variable física hasta el sistema encargado de procesarla.
       p.mb-4 La secuencia general puede representarse así:
@@ -290,9 +293,9 @@
               figure
                 img(src="@/assets/curso/tema1/img33.png", data-aos="fade-right").w-50.mx-auto
             .col-lg-7.order-1.order-md-1.order-lg-1.p-4.p-lg-4
-              p(data-aos="fade-left").mb-4 A continuación, se invita a ir al siguiente podcast: 
+              p(data-aos="fade-left").mb-4 Revise el siguiente pódcast para profundizar en el proceso de acondicionamiento de las señales provenientes de los sensores y comprender cómo estas pueden ser adaptadas para su posterior adquisición y procesamiento.
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
-                texto="Podcast pendiente"
+                texto="Acondicionar para controlar: del sensor a una señal útil"
                 tiempo
                 :audio="require_src('@/assets/curso/audio/2.mp3')"
               )

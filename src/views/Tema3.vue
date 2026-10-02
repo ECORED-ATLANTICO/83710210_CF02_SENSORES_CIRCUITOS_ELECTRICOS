@@ -45,7 +45,7 @@
                 img(src="@/assets/curso/tema3/img03.png", alt="")
             .crd_hover_txt--body
               h4.mb-3.text-center La tensión eléctrica
-              p.mb-0 Es la diferencia de potencial eléctrico entre dos puntos. Permite impulsar el movimiento de las cargas a través de un conductor.
+              p.mb-0 También denominada diferencia de potencial, representa una diferencia de energía eléctrica entre dos puntos. Esta diferencia permite establecer las condiciones necesarias para que circule corriente en un circuito.
 
         .col-xl-4.col-lg-6.col-md-12.col-12.mb-0.mb-xl-0
           .crd_hover_txt(data-aos="flip-left").tarjeta
@@ -108,7 +108,7 @@
       .col-lg-10.mx-auto
         .bg-fondo-02.br-15.mb-0.p-4.justify-content-center
           .col-lg-9.ml-11
-            p.mb-1.fw-bold Ejemplo aplicado:
+            p.mb-1.fw-bold Ejemplo de aplicación
             p.mb-0 Si un circuito presenta una tensión de 12 V y una resistencia de 6 Ω, la corriente puede determinarse mediante:
             p.mb-0 <b>I = V / R</b>
             p.mb-0 <b>I = 12 V / 6 Ω</b>
@@ -121,7 +121,7 @@
     separador
 
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.2 Configuración de circuitos para acondicionar señales
+      h2 3.2 Configuración de circuitos
 
 
     .row.mb-4.justify-content-center.align-items-center
@@ -161,7 +161,6 @@
             h5.text-bold.mb-0 Figura 5.
             span División de tensión
           img(src="@/assets/curso/tema3/img08.png", alt="Diagrama de un divisor de voltaje compuesto por dos resistencias. La entrada Vin se conecta a la resistencia R1, ubicada en serie, y posteriormente al punto de salida Vout. Desde el punto de conexión entre R1 y Vout se deriva una conexión hacia la resistencia R2, que está conectada a GND o tierra.", data-aos="zoom-in").mx-auto
-          figcaption.mb-0 Nota. SENA, (2026).
 
         .col-lg-6.col-md-12.mb-0.mb-lg-0
           .bg-color-08.p-4.br-15.h-100.align-content-center
@@ -196,25 +195,24 @@
       separador
 
       #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 3.3 Aplicación del puente de <em>Wheatstone</em>
+        h2 3.3 Aplicación del puente de Wheatstone
 
       img(src="@/assets/curso/tema3/img09.png", alt="")
       .row.justify-content-center.align-items-center.z-2.mb-5
         .col-lg-10(data-aos="fade-right")
-          p.banner-text El puente de <em>Wheatstone</em> constituye otra configuración utilizada para el acondicionamiento de señales provenientes de sensores. Su aplicación resulta especialmente importante cuando el sensor presenta una variación de resistencia asociada con un cambio de la variable física.
+          p.banner-text El puente de Wheatstone constituye otra configuración utilizada para el acondicionamiento de señales provenientes de sensores. Su aplicación resulta especialmente importante cuando el sensor presenta una variación de resistencia asociada con un cambio de la variable física.
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-3.mb-4.mb-lg-0
-        p.mb-3 El material de formación señala que el puente de <em>Wheatstone</em> puede utilizarse industrialmente con sensores cuya resistencia cambia de acuerdo con la variación de determinadas variables. También presenta su utilización para identificar el valor de una resistencia desconocida mediante el equilibrio del puente.
+        p.mb-3 El material de formación señala que el puente de Wheatstone puede utilizarse industrialmente con sensores cuya resistencia cambia de acuerdo con la variación de determinadas variables. También presenta su utilización para identificar el valor de una resistencia desconocida mediante el equilibrio del puente.
         p.mb-0 Una representación simplificada del circuito es:
 
       .col-lg-7.mb-0.mb-lg-0
         .titulo-sexto.color-acento-contenido.mb-3
           h5.text-bold.mb-0 Figura 6.
-          span Puente de <em>Wheatstone</em>
+          span Puente de Wheatstone
         img.d-none.d-lg-block(src="@/assets/curso/tema3/img10.png", alt="Diagrama de un circuito con dos divisores de voltaje conectados entre sí mediante los puntos A y B. El primer divisor tiene una entrada Vin, dos resistencias R1 y R2, y una conexión de salida en el punto A. El segundo divisor tiene una entrada Vin, dos resistencias R3 y R4, y una conexión en el punto B. Los puntos A y B están unidos por una línea horizontal.", data-aos="zoom-in").mx-auto
         img.d-block.d-lg-none(src="@/assets/curso/tema3/img11.png", alt="Diagrama de un circuito con dos divisores de voltaje conectados entre sí mediante los puntos A y B. El primer divisor tiene una entrada Vin, dos resistencias R1 y R2, y una conexión de salida en el punto A. El segundo divisor tiene una entrada Vin, dos resistencias R3 y R4, y una conexión en el punto B. Los puntos A y B están unidos por una línea horizontal.", data-aos="zoom-in").mx-auto
-        figcaption.mb-0 Nota. SENA, (2026).
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-3.col-md-8.mb-0.mb-lg-0.order-2.order-lg-1
@@ -253,6 +251,9 @@
           ul.lista-ul.mb-0
             li.d-flex.mb-2
               span.fw-bold.me-2 →
+              span.fw-bold Señal del sensor
+            li.d-flex.mb-2
+              span.fw-bold.me-2 →
               span.fw-bold Circuito de acondicionamiento
             li.d-flex.mb-2
               span.fw-bold.me-2 →
@@ -288,12 +289,11 @@
           span Secuencia general
         img.d-none.d-lg-block(src="@/assets/curso/tema3/img14.png", alt="Diagrama de flujo vertical que representa una cadena de medición y control. El proceso inicia con una variable física, que pasa mediante una flecha a un sensor. Luego, la señal pasa a un acondicionador, continúa hacia procesamiento y finalmente llega a una acción de control. Cada etapa está representada dentro de un recuadro y conectada con flechas descendentes.", data-aos="zoom-in").mx-auto
         img.d-block.d-lg-none(src="@/assets/curso/tema3/img15.png", alt="Diagrama de flujo vertical que representa una cadena de medición y control. El proceso inicia con una variable física, que pasa mediante una flecha a un sensor. Luego, la señal pasa a un acondicionador, continúa hacia procesamiento y finalmente llega a una acción de control. Cada etapa está representada dentro de un recuadro y conectada con flechas descendentes.", data-aos="zoom-in").mx-auto
-        figcaption.mb-0 Nota. SENA, (2026).
 
     .row.mb-5.justify-content-center.align-items-center
       .col-lg-8.mb-4.mb-lg-0
         p.mb-3 Esta representación permite observar que el circuito de acondicionamiento constituye un elemento de conexión entre la información obtenida del proceso y el sistema encargado de tomar una decisión o generar una respuesta.
-        p.mb-0 El Material de Formación 4 parte precisamente de esta integración: las variables son capturadas mediante sensores, procesadas por transductores y escalizadas mediante circuitos de acondicionamiento, para posteriormente abordar circuitos básicos capaces de realizar pequeñas acciones de control.
+        p.mb-0 El material de formación 4 parte precisamente de esta integración: las variables son capturadas mediante sensores, procesadas por transductores y escalizadas mediante circuitos de acondicionamiento, para posteriormente abordar circuitos básicos capaces de realizar pequeñas acciones de control.
 
       .col-lg-4.mb-0.mb-lg-0
         figure

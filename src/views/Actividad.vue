@@ -17,7 +17,7 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Sensores, medición y adquisición',
+      tema: 'Acondicionamiento y control',
       titulo: 'Cuestionario',
       introduccion:
         '<b>Objetivo:</b> evaluar y reforzar su capacidad para identificar los conceptos relacionados con la medición, los sensores, los transductores, las señales, el acondicionamiento de señales y los sistemas electrónicos básicos de control, aplicados a procesos industriales.',

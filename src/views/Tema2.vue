@@ -50,7 +50,6 @@
             span Señal generada
           img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema2/img05.png", alt="Gráfica de línea escalonada que representa una relación entre valor y tiempo. El eje vertical está etiquetado como “Valor” y el eje horizontal como “Tiempo”. La línea inicia cerca de cero, aumenta progresivamente mediante varios escalones hasta alcanzar un nivel máximo, se mantiene constante durante un breve periodo y luego desciende gradualmente hasta aproximarse nuevamente al nivel inicial.", data-aos="zoom-in").mx-auto
           img.d-block.d-lg-none(src="@/assets/curso/tema2/img06.png", alt="Gráfica de línea escalonada que representa una relación entre valor y tiempo. El eje vertical está etiquetado como “Valor” y el eje horizontal como “Tiempo”. La línea inicia cerca de cero, aumenta progresivamente mediante varios escalones hasta alcanzar un nivel máximo, se mantiene constante durante un breve periodo y luego desciende gradualmente hasta aproximarse nuevamente al nivel inicial.", data-aos="zoom-in").mx-auto
-          figcaption.mb-0 Nota. SENA, (2026).
 
     p.mb-4 La curva representa una señal cuyo valor cambia progresivamente con el tiempo.<br>En una señal digital, la información se representa mediante valores discretos. En el caso de una señal binaria, se utilizan dos estados:
 
@@ -76,7 +75,6 @@
           span Representación simplificada
         img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema2/img08.png", alt="Gráfica de nivel en función del tiempo. El eje vertical está etiquetado como “Nivel” y presenta los valores 0 y 1. El eje horizontal está etiquetado como “Tiempo”. La línea comienza en el nivel 1, desciende al nivel 0 durante un intervalo de tiempo y posteriormente vuelve al nivel 1, donde permanece constante.", data-aos="zoom-in").mx-auto
         img.d-block.d-lg-none.mb-3(src="@/assets/curso/tema2/img09.png", alt="Gráfica de nivel en función del tiempo. El eje vertical está etiquetado como “Nivel” y presenta los valores 0 y 1. El eje horizontal está etiquetado como “Tiempo”. La línea comienza en el nivel 1, desciende al nivel 0 durante un intervalo de tiempo y posteriormente vuelve al nivel 1, donde permanece constante.", data-aos="zoom-in").mx-auto
-        figcaption.mb-0 Nota. SENA, (2026).
 
     p.mb-4 Esta diferencia entre señales análogas y digitales es fundamental porque determina la forma en que la información puede ser procesada.
 
@@ -87,7 +85,6 @@
           span Diferencia entre señales
         .tabla-a.color-acento-contenido.tb-custom.mb-0
           table
-            caption Nota. SENA, (2026).
             thead
               tr
                 th Característica
@@ -122,11 +119,11 @@
 
       .col-lg-3.col-md-6.mb-3.mb-lg-0
         .bg-color-02.p-3.br-15.text-center
-          p.mb-0.text-bold 0 → nivel lógico bajo
+          p.mb-0.text-bold 0 → sensor no activado
 
       .col-lg-3.col-md-6.mb-3.mb-lg-0
         .bg-color-02.p-3.br-15.text-center
-          p.mb-0.text-bold 1 → nivel lógico alto
+          p.mb-0.text-bold 1 → sensor activado
 
     
     .container
@@ -157,7 +154,7 @@
         .col-lg-10.mx-auto
           .bg-fondo-02.br-15.mb-0.p-4.justify-content-center
             .col-lg-9.ml-11
-              p.mb-1.fw-bold Ejemplo aplicado:
+              p.mb-1.fw-bold Ejemplo aplicado
               p.mb-0 Supóngase un sistema encargado de detectar la presencia de una pieza en una banda transportadora.
               p.mb-0 Cuando la pieza no está presente: <b>Sensor = 0</b>
               p.mb-0 Cuando la pieza está presente: <b>Sensor = 1</b>
@@ -197,7 +194,6 @@
           span Sistema binario y decimal
         .tabla-a.color-acento-contenido.tb-custom.mb-4
           table
-            caption Nota. SENA, (2026).
             thead
               tr
                 th Decimal
@@ -278,7 +274,6 @@
           span Transición señal análoga
         img.d-none.d-lg-block(src="@/assets/curso/tema2/img16.png", alt="Diagrama de un convertidor analógico-digital (ADC). A la izquierda se muestra una señal de entrada analógica representada por una onda sinusoidal. La señal ingresa al bloque central identificado como “ADC”, que la convierte en una salida digital. A la derecha se muestra la salida binaria mediante una secuencia de valores 0 y 1. El diagrama ilustra el proceso de conversión de una señal analógica a una representación digital.", data-aos="zoom-in").mx-auto
         img.d-block.d-lg-none(src="@/assets/curso/tema2/img17.png", alt="Diagrama de un convertidor analógico-digital (ADC). A la izquierda se muestra una señal de entrada analógica representada por una onda sinusoidal. La señal ingresa al bloque central identificado como “ADC”, que la convierte en una salida digital. A la derecha se muestra la salida binaria mediante una secuencia de valores 0 y 1. El diagrama ilustra el proceso de conversión de una señal analógica a una representación digital.", data-aos="zoom-in").mx-auto
-        figcaption.mb-0 Nota. SENA, (2026).
 
     p.mb-4 El proceso general puede comprenderse mediante cuatro etapas:
 
@@ -302,7 +297,7 @@
         .bg-fondo-03.p-4.br-15.mb-3
           .row.align-items-center
             .col-lg-9.mb-3.mb-lg-0
-              p.mb-0.fw-bold Ejemplo:
+              p.mb-0.fw-bold Ejemplo
               p.mb-0 Si un sensor entrega una señal de tensión que cambia de acuerdo con una variable física, el ADC puede recibir dicha señal y generar un código binario asociado con el valor medido.
               p.mb-0 De esta manera:
               p.mb-0.fw-bold Variable física → Sensor → Señal análoga → Acondicionamiento → ADC → Código binario → Procesamiento digital
@@ -335,7 +330,6 @@
             span Intervalo
           img.d-none.d-lg-block.mb-3(src="@/assets/curso/tema2/img20.png", alt="Diagrama que representa el proceso de conversión de una señal analógica a digital. En la parte superior aparece “medida análoga”, seguida del valor “2,35 v”. una flecha apunta hacia un bloque denominado “adc”. debajo, otra flecha conduce a “código digital”, representado por la secuencia binaria “00101101”. finalmente, una flecha apunta hacia “procesamiento”.", data-aos="zoom-in").mx-auto
           img.d-block.d-lg-none.mb-3(src="@/assets/curso/tema2/img21.png", alt="Diagrama que representa el proceso de conversión de una señal analógica a digital. En la parte superior aparece “medida análoga”, seguida del valor “2,35 v”. una flecha apunta hacia un bloque denominado “adc”. debajo, otra flecha conduce a “código digital”, representado por la secuencia binaria “00101101”. finalmente, una flecha apunta hacia “procesamiento”.", data-aos="zoom-in").mx-auto
-          figcaption.mb-0 Nota. SENA, (2026).
 
 
       .row.mb-5.mb-lg-5.justify-content-center.align-items-center
@@ -358,7 +352,7 @@
       .row.mb-4.justify-content-center.align-items-center
         .col-lg-5.mb-4.mb-lg-0
           p.mb-1 La resolución determina la capacidad del conversor para diferenciar distintos niveles de la señal de entrada.
-          p.mb-2 Un conversor con mayor cantidad de bits puede representar una mayor cantidad de niveles.
+          p.mb-2 Un conversor con mayor cantidad de <em>bits</em> puede representar una mayor cantidad de niveles.
           p.mb-3 Por ejemplo:
 
           .px-4.py-3.br-15.border.border-2.br-15.br-color-05.col-9
@@ -366,16 +360,16 @@
               .col-4 Resolución
               .col-8.text-center Cantidad de niveles posibles
             .row.mb-0
-              .col-4 2 bits
+              .col-4 2 <em>bits</em>
               .col-8.text-center 4
             .row.mb-0
-              .col-4 3 bits
+              .col-4 3 <em>bits</em>
               .col-8.text-center 8
             .row.mb-0
-              .col-4 4 bits
+              .col-4 4 <em>bits</em>
               .col-8.text-center 16
             .row.mb-0
-              .col-4 8 bits
+              .col-4 8 <em>bits</em>
               .col-8.text-center 256
 
         .col-lg-7.mb-0.mb-lg-0
@@ -385,7 +379,7 @@
             .px-3.py-2.br-10.d-inline-block.border.border-2.border-success.mb-3
               p.mb-0.fw-bold Número de niveles = 2<sup>n</sup>
 
-            p.mb-3 Donde n corresponde al número de bits utilizados por el conversor.<br>Así, un conversor de 8 bits puede representar:
+            p.mb-3 Donde n corresponde al número de <em>bits</em> utilizados por el conversor.<br>Así, un conversor de 8 <em>bits</em> puede representar:
 
             .px-3.py-2.br-10.d-inline-block.border.border-2.border-success.mb-3
               p.mb-0.fw-bold 2<sup>8</sup> = 256 niveles
@@ -422,133 +416,6 @@
           p.mb-2.fw-bold Para tener presente
           p.mb-0 Una señal análoga representa una variable de manera continua; el conversor análogo-digital permite transformarla en una representación digital que puede ser procesada por un sistema electrónico.
 
-
-
-
-
-
-
-
-
-
-  //-             p.mb-3 El fototransistor presenta un funcionamiento similar al de un transistor, pero la corriente asociada a la base es suministrada por la acción de la luz.
-  //-             p.mb-0 Estos dispositivos permiten incorporar la detección de luz dentro de sistemas electrónicos.
-            
-  //-           .tarjeta.color-acento-botones--borde.p-4(titulo="Selección del sensor o transductor")
-  //-             p.mb-0 La selección del dispositivo debe responder a la variable que se desea captar y a las características de la aplicación.
-
-  //-   p.mb-3 La relación puede organizarse mediante las siguientes preguntas:
-
-  //-   .row.mb-4.justify-content-center.align-items-stretch
-  //-     .col-lg-6.mb-4.mb-lg-0
-  //-       .bg-color-08.p-4.br-15.h-100
-  //-         .row.align-items-center.h-100
-  //-           .col-lg-auto
-  //-             img.d-none.d-lg-flex(src="@/assets/curso/tema2/img23.png", style="max-width: 90px").mx-auto
-  //-           .col-lg
-  //-             p.mb-0.text-bold ¿Qué variable se desea detectar o medir? 
-  //-             p.mb-2 Determina el tipo de dispositivo requerido.
-  //-             p.mb-0.text-bold ¿La detección requiere contacto físico? 
-  //-             p.mb-2 Permite establecer si resulta apropiado un dispositivo como un final de carrera o un detector de proximidad.
-  //-             p.mb-0.text-bold ¿Qué distancia debe medirse? 
-  //-             p.mb-0 Permite considerar diferentes principios de desplazamiento.
-
-  //-     .col-lg-6.mb-0.mb-lg-0
-  //-       .bg-color-02.p-4.br-15.h-100
-  //-         .row.align-items-center.h-100
-  //-           .col-lg-auto.order-lg-2
-  //-             img.d-none.d-lg-flex(src="@/assets/curso/tema2/img24.png", style="max-width: 90px").mx-auto
-  //-           .col-lg.order-lg-1
-  //-             p.mb-0.text-bold ¿Qué tipo de señal necesita el sistema electrónico?
-  //-             p.mb-2 Permite establecer las características requeridas para la salida del dispositivo.
-  //-             p.mb-0.text-bold ¿Qué condiciones presenta el proceso?
-  //-             p.mb-0 Permite considerar las características de operación del sensor o transductor.
-
-  //-   separador
-    
-  //-   #t_2_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-  //-     h2 2.4 Relación entre variable y dispositivo
-
-
-  //-   .row.mb-4.justify-content-center.align-items-center
-  //-     .col-md-8.col-lg-3.mb-4.mb-lg-0.order-lg-1
-  //-       figure
-  //-         img(src="@/assets/curso/tema2/img25.png", data-aos="zoom-in")
-  //-     .col-lg-9.order-lg-2
-  //-       p.mb-2 La clasificación estudiada puede resumirse de la siguiente manera:
-  //-       .titulo-sexto.color-acento-contenido.mb-3
-  //-         h5 
-  //-           b Tabla 3.
-  //-         span Relación variable y dispositivo
-  //-       .tabla-a.color-acento-contenido.tb-custom.mb-0
-  //-         table(style="min-width:440px")
-  //-           caption <span style="font-weight: normal">Nota. SENA, (2026).</span>
-  //-           thead
-  //-             tr
-  //-               th(width="40%") Variable o condición
-  //-               th(width="60%") Ejemplos presentados
-  //-           tbody
-  //-             tr
-  //-               td Posición
-  //-               td Final de carrera
-  //-             tr
-  //-               td Proximidad
-  //-               td Detector de proximidad
-  //-             tr
-  //-               td Desplazamiento
-  //-               td Radar, resistivo, inductivo, capacitivo, encoder
-  //-             tr
-  //-               td Velocidad
-  //-               td Tacómetro
-  //-             tr
-  //-               td Presión
-  //-               td Tubo en U, Bourdon, diafragma, fuelle, electromecánico
-    
-  //-   p.mb-4 Esta clasificación permite relacionar una necesidad de medición o captación con los dispositivos disponibles para obtener información de la variable.
-
-  //-   separador
-    
-  //-   #t_2_5.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-  //-     h2 2.5 Integración del sensor, transductor y sistema electrónico
-    
-  //-   p.mb-4 Un sistema de adquisición puede comprenderse como una cadena en la que cada elemento cumple una función determinada:
-
-  //-   .bg-color-02.p-4.mb-5.br-15.max-cont-md
-  //-     p.mb-0.text-bold Variable física → Sensor → Transductor → Señal de salida → Sistema electrónico → Procesamiento
-    
-  //-   .bg-full-width.bg-fondo-2
-
-  //-     .row.justify-content-center.mb-5
-  //-       .col-md-6.col-lg-6.col-xl-3.mb-4(data-aos="fade-right")
-  //-         .tarjeta-numerada.color-primario.p-4.h-100.align-content-center
-  //-           .tarjeta-numerada__numero
-  //-             .h2 1
-  //-           p.mb-0.ms-3.text-center El sensor permite captar la variable.
-
-  //-       .col-md-6.col-lg-6.col-xl-3.mb-4(data-aos="fade-up")
-  //-         .tarjeta-numerada.color-secundario.p-4.h-100.align-content-center
-  //-           .tarjeta-numerada__numero
-  //-             .h2 2
-  //-           p.mb-0.ms-3.text-center El transductor recibe y transforma o adapta la señal.
-
-  //-       .col-md-6.col-lg-6.col-xl-3.mb-4(data-aos="fade-down")
-  //-         .tarjeta-numerada.color-acento-contenido.p-4.h-100.align-content-center
-  //-           .tarjeta-numerada__numero
-  //-             .h2 3
-  //-           p.mb-0.ms-3.text-center El sistema electrónico recibe la señal para realizar el procesamiento correspondiente.
-
-  //-       .col-md-6.col-lg-6.col-xl-3.mb-4(data-aos="fade-left")
-  //-         .tarjeta-numerada.color-acento-botones.p-4.h-100.align-content-center
-  //-           .tarjeta-numerada__numero
-  //-             .h2 4
-  //-           p.mb-0.ms-3.text-center Esta estructura constituye la base para el estudio posterior de las variables y señales y de los sistemas de adquisición de señales.
-
-
-
-  //-     .container
-  //-       .titulo-con-imagen.mb-5(data-aos="fade-right")
-  //-         .titulo-con-imagen__fondo
-  //-           img.titulo-con-imagen__imagen(src="@/assets/curso/img-subtitulo.svg")
 </template>
 
 <script>

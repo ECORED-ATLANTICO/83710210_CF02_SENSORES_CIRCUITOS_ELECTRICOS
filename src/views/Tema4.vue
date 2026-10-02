@@ -43,27 +43,32 @@
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
             img(src="@/assets/curso/tema4/img03.svg", style="max-width: 70px").mx-auto.mb-3
             p.mb-1.fw-bold Variable del proceso:
-            p.mb-0 corresponde a la magnitud o condición que se desea observar o controlar.
+            p.mb-0 Corresponde a la magnitud o condición que se desea observar o controlar.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
             img(src="@/assets/curso/tema4/img04.svg", style="max-width: 70px").mx-auto.mb-3
             p.mb-1.fw-bold Sensor:
-            p.mb-0 permite detectar la variable y generar una señal relacionada con ella.
+            p.mb-0 Permite detectar la variable y generar una señal relacionada con ella.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
             img(src="@/assets/curso/tema4/img05.svg", style="max-width: 70px").mx-auto.mb-3
-            p.mb-1.fw-bold Acondicionador:
-            p.mb-0 adapta o modifica las características de la señal obtenida del sensor.
+            p.mb-1.fw-bold Transductor:
+            p.mb-0 Transforma o adapta la información proveniente del sensor.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
             img(src="@/assets/curso/tema4/img06.svg", style="max-width: 70px").mx-auto.mb-3
-            p.mb-1.fw-bold Procesamiento:
-            p.mb-0 evalúa la información recibida para determinar la respuesta del sistema.
+            p.mb-1.fw-bold Acondicionador:
+            p.mb-0 Prepara la señal para que pueda ser procesada.
 
           .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
             img(src="@/assets/curso/tema4/img07.svg", style="max-width: 70px").mx-auto.mb-3
-            p.mb-1.fw-bold Acción de control:
-            p.mb-0 corresponde a la respuesta o modificación ejecutada sobre el proceso.
+            p.mb-1.fw-bold Elemento de procesamiento:
+            p.mb-0 Interpreta la señal y determina la respuesta correspondiente.
+
+          .tarjeta.tarjeta--blanca.shadow-sm.p-4.h-100.text-center
+            img(src="@/assets/curso/tema4/img08.svg", style="max-width: 70px").mx-auto.mb-3
+            p.mb-1.fw-bold Elemento de salida o actuación:
+            p.mb-0 Ejecuta la acción determinada por el sistema.
 
     separador
 
@@ -135,10 +140,9 @@
           .bg-color-01.p-4.br-15.h-100.align-content-center
             .row.align-items-center
               .col-lg-5.p-2
-                p.mb-3.fw-bold Por ejemplo:
-                p.mb-0 De esta manera, una condición física puede convertirse en una condición lógica que posteriormente será procesada.
+                p.mb-0.fw-bold Por ejemplo:
               
-              .col-lg-7
+              .col-lg-7.mb-2
                 .px-3.py-2.br-15.border.border-2.br-15.br-color-05.col-12
                   .row.fw-bold.mb-2.pb-1
                     .col-6   Condición
@@ -149,6 +153,7 @@
                   .row.mb-0
                     .col-7 Sensor activado
                     .col-5.text-center 1
+              p.mb-0 De esta manera, una condición física puede convertirse en una condición lógica que posteriormente será procesada.
       
       
       p.mb-4 La señal binaria adquiere así una función importante dentro de los sistemas de control, ya que permite representar estados que pueden ser interpretados por los circuitos electrónicos.
@@ -204,8 +209,7 @@
       .col-lg-10.order-2.order-lg-1
         TabsA.color-acento-botones
           .tarjeta.color-acento-botones--borde.p-4(titulo="Compuerta AND")
-            p.mb-1 La salida de una compuerta AND se activa cuando todas las entradas se encuentran activas.
-            p.mb-2 Para dos entradas:
+            p.mb-2 La salida de una compuerta AND se activa cuando todas las entradas se encuentran activas.
             
             .px-3.py-2.br-15.border.border-2.br-color-05.col-lg-6.col-md-8.mb-3
               .row.fw-bold.mb-2.pb-1
@@ -262,9 +266,9 @@
             p.mb-0 A OR B = 1 cuando A o B, o ambas, presentan el estado 1.
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Compuerta NOT")
-            p.mb-2 La compuerta NOT trabaja con una entrada y genera la condición lógica contraria. Por esta razón, también se conoce como inversor.
+            p.mb-2 La compuerta NOT trabaja con una entrada y genera la condición lógica contraria.
             
-            .px-3.py-2.br-15.border.border-2.br-color-05.col-lg-5.col-md-7.mb-0
+            .px-3.py-2.br-15.border.border-2.br-color-05.col-lg-5.col-md-7.mb-2
               .row.fw-bold.mb-2.pb-1
                 .col-6 Entrada
                 .col-6.text-center Salida
@@ -274,6 +278,8 @@
               .row.mb-0
                 .col-6 1
                 .col-6.text-center 0
+            
+            p.mb-0 Por esta razón, también se conoce como inversor.
 
           .tarjeta.color-acento-botones--borde.p-4(titulo="Aplicación en control")
             p.mb-3 Las compuertas lógicas permiten establecer condiciones para activar o desactivar una salida.
@@ -305,7 +311,6 @@
           span Circuitos combinados
         figure
           img(src="@/assets/curso/tema4/img12.png", alt="Diagrama de un sistema de control. Sensor A y Sensor B aparecen a la izquierda y sus señales convergen hacia un punto común. Desde allí, una flecha conduce a Lógica de control, que a su vez dirige una flecha hacia Salida.", data-aos="zoom-in").mx-auto
-          figcaption Nota. SENA, (2026).
 
     p.mb-5 Si los sensores representan condiciones diferentes de un proceso, la lógica puede determinar cuándo debe activarse la salida.
 
@@ -314,7 +319,7 @@
         .col-lg-10.mx-auto
           .bg-fondo-02.br-15.mb-0.p-4.justify-content-center
             .col-lg-9.ml-11
-              p.mb-1.fw-bold Ejemplo aplicado:
+              p.mb-1.fw-bold Ejemplo aplicado
               p.mb-0 En una máquina industrial pueden existir dos condiciones de seguridad:
               p.mb-0 Sensor A: protección cerrada.
               p.mb-0 Sensor B: operador autorizado.
@@ -351,7 +356,6 @@
                   td.text-center 1
                   td.text-center 1
                   td.text-center 1
-          figcaption.mb-3 Nota. SENA, (2026).
 
           p.mb-0 Este ejemplo permite observar cómo una condición física puede convertirse en una señal lógica y posteriormente en una decisión de control.
 
@@ -471,7 +475,7 @@
         .bg-fondo-03.p-4.br-15.mb-3
           .row.align-items-center
             .col-lg-9.mb-3.mb-lg-0
-              h5.fw-bold.mb-2 Ejemplo:
+              h5.fw-bold.mb-2 Ejemplo integrador
               p.mb-2 Considérese una banda transportadora que debe detenerse cuando un sensor detecte una condición determinada.
               p.mb-1 El funcionamiento básico puede ser:
               p.mb-2.fw-bold Sensor detecta la condición → Generación de señal → Acondicionamiento → Procesamiento lógico → Activación del relé → Desactivación del motor
