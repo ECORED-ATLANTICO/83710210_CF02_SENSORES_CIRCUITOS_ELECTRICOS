@@ -297,7 +297,7 @@
               TarjetaAudio.color-acento-contenido.bg-color-white.mb-3(
                 texto="Acondicionar para controlar: del sensor a una señal útil"
                 tiempo
-                :audio="require_src('@/assets/curso/audio/2.mp3')"
+                :audio="require_src('@/assets/curso/audio/1.mp3')"
               )
   
 </template>

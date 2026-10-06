@@ -386,7 +386,7 @@ export default {
         {
           nombre: 'Wilmar Urrutia Martínez',
           cargo: 'Experto temático',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+          centro: 'N/A',
         },
         {
           nombre: 'Carolina Coca Salazar',
