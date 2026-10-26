@@ -56,11 +56,11 @@
     .row.mb-4.justify-content-stretch.align-items-center
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-02.p-3.br-15.text-center
-          p.mb-0.text-bold 0 → nivel lógico bajo
+          p.mb-0.text-bold 0 → estado lógico bajo
 
       .col-lg-3.mb-3.mb-lg-0
         .bg-color-02.p-3.br-15.text-center
-          p.mb-0.text-bold 1 → nivel lógico alto
+          p.mb-0.text-bold 1 → estado lógico alto
 
     p.mb-4 Una representación simplificada sería:
 
@@ -156,8 +156,8 @@
             .col-lg-9.ml-11
               p.mb-1.fw-bold Ejemplo aplicado
               p.mb-0 Supóngase un sistema encargado de detectar la presencia de una pieza en una banda transportadora.
-              p.mb-0 Cuando la pieza no está presente: <b>Sensor = 0</b>
-              p.mb-0 Cuando la pieza está presente: <b>Sensor = 1</b>
+              p.mb-0 Cuando la pieza no está presente.
+              p.mb-0 Cuando la pieza está presente.
               p.mb-0 La señal puede utilizarse posteriormente para activar una determinada acción del sistema.
               p.mb-0.text-bold La señal binaria permite representar condiciones del proceso mediante estados que pueden ser interpretados por los circuitos electrónicos.
 
@@ -300,7 +300,7 @@
               p.mb-0.fw-bold Ejemplo
               p.mb-0 Si un sensor entrega una señal de tensión que cambia de acuerdo con una variable física, el ADC puede recibir dicha señal y generar un código binario asociado con el valor medido.
               p.mb-0 De esta manera:
-              p.mb-0.fw-bold Variable física → Sensor → Señal análoga → Acondicionamiento → ADC → Código binario → Procesamiento digital
+              p.mb-0.fw-bold Variable física → sensor → señal análoga → acondicionamiento → ADC → código binario → procesamiento digital
 
             .col-lg-3
               img(src="@/assets/curso/tema2/img04.png", data-aos="zoom-in", style="max-width: 170px").mx-auto
@@ -399,7 +399,7 @@
           .col-lg-auto.d-none.d-lg-block
             img(src="@/assets/curso/tema1/img06.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0.text-bold Variable física → Sensor → Señal análoga → Acondicionamiento → Conversor análogo-digital → Código binario → Sistema de procesamiento → Decisión o acción de control
+            p.mb-0.text-bold Variable física → sensor → señal análoga → acondicionamiento → conversor análogo-digital → código binario → sistema de procesamiento → decisión o acción de control
 
       .bloque-texto-g.bg-color-04.p-3.p-sm-3.p-md-3.p-lg-5.mb-5
         .bloque-texto-g__img(

@@ -296,6 +296,8 @@
       .col-lg-7.mb-4.mb-lg-0
         p.mb-3 Los circuitos combinatorios son sistemas digitales cuya salida depende de las condiciones presentes en sus entradas. Esto significa que una modificación en las entradas puede producir una modificación en la salida de acuerdo con la lógica definida.
 
+        p.mb-3 Una forma sencilla de comprenderlo es:
+
         .bg-color-02.p-4.br-15.mb-3
           .row.align-items-center
             .col-lg-auto.d-none.d-lg-block
@@ -385,6 +387,7 @@
 
       .col-lg-9.mb-0.mb-lg-0
         p.mb-4 Esta característica permite utilizar el relé como elemento de interfaz entre una señal de control y un circuito de salida. Por ejemplo, una señal proveniente de un circuito electrónico puede utilizarse para activar un relé y, mediante sus contactos, controlar otro circuito.
+        p.mb-3 Esto permite separar funcionalmente:
 
         .row.align-items-center.justify-content-stretch.g-3
           .col-sm-auto

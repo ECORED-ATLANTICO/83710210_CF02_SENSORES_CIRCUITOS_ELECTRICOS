@@ -234,7 +234,7 @@
             .col-lg-auto.d-none.d-lg-block
               img(src="@/assets/curso/tema1/img06.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0.text-bold Variable física → Variación de resistencia del sensor → Desequilibrio del puente → Variación de tensión → Señal de salida
+              p.mb-0.text-bold Variable física → sensor → variación de resistencia del sensor → desequilibrio del puente → variación de tensión → señal de salida
 
     p.mb-3 De esta manera, el puente permite transformar una variación relacionada con una magnitud física en una señal eléctrica que puede continuar hacia otras etapas del sistema.
 
@@ -248,10 +248,9 @@
         .col-lg-6.mb-4.mb-lg-0
           p.mb-3 La configuración del circuito determina las características de la señal disponible en su salida. Por esta razón, el diseño de un circuito de acondicionamiento debe considerar la relación entre la señal de entrada, los componentes utilizados y la señal que se requiere obtener.
           p.mb-3 La secuencia puede representarse de la siguiente manera:
+          
+          h4.text-bold.mb-3 Señal del sensor
           ul.lista-ul.mb-0
-            li.d-flex.mb-2
-              span.fw-bold.me-2 →
-              span.fw-bold Señal del sensor
             li.d-flex.mb-2
               span.fw-bold.me-2 →
               span.fw-bold Circuito de acondicionamiento

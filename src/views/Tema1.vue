@@ -216,7 +216,7 @@
           .col-lg-auto.d-none.d-lg-block
             img(src="@/assets/curso/tema1/img06.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0.text-bold Variable física → Cambio en la resistencia del sensor → Desequilibrio del puente → Diferencia de potencial → Señal para procesamiento
+            p.mb-0.text-bold Variable física → cambio en la resistencia del sensor → desequilibrio del puente → diferencia de potencial → señal para procesamiento
 
       p.mb-2 Cuando la variable física modifica el comportamiento del sensor, se produce una variación en las condiciones eléctricas del puente. Esta variación puede ser utilizada como información para las etapas posteriores del sistema.
       p.mb-4 El puente de Wheatstone permite, por tanto, establecer una relación entre una variación física y una respuesta eléctrica medible.
